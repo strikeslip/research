@@ -1,2 +1,194 @@
-# Investigatio
-SOS Research
+![Image](https://github.com/user-attachments/assets/88059152-b8fa-46fc-a498-8801064b5cc4)<br>
+
+# SOS Investigatio / Research
+
+### Sound Synthesis
+
+Sound Synthesis Types<br>
+https://en.wikipedia.org/wiki/Category:Sound_synthesis_types<br>
+
+Granular Synthesis<br>
+https://en.wikipedia.org/wiki/Granular_synthesis<br>
+
+FM Synthesis<br>
+https://en.wikipedia.org/wiki/Frequency_modulation_synthesis<br>
+
+Wavetable Synthesis<br>
+https://en.wikipedia.org/wiki/Wavetable_synthesis<br>
+
+Additive Synthesis<br>
+https://en.wikipedia.org/wiki/Additive_synthesis<br>
+
+Subtractive Synthesis<br>
+https://en.wikipedia.org/wiki/Subtractive_synthesis<br>
+
+### Audio Synthesis Tools<br>
+
+Audacity<br>
+https://en.wikipedia.org/wiki/Audacity_(audio_editor)<br>
+https://www.audacityteam.org/<br>
+
+SuperCollider<br>
+https://supercollider.github.io/<br>
+https://en.wikipedia.org/wiki/SuperCollider<br>
+
+C SOUND<br>
+https://en.wikipedia.org/wiki/Csound<br>
+https://csound.com/<br>
+
+<i>Synthesizers  (RL)<br></i>
+
+MOOG Synthesizer<br>
+https://en.wikipedia.org/wiki/Moog_synthesizer<br>
+
+Buchla Electronic Musical Instruments<br>
+https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments<br>
+
+Elektron Monomachine<br>
+https://en.wikipedia.org/wiki/Elektron_Monomachine<br>
+
+### Sythesis Music Genres<br>
+
+Generative Music<br> 
+https://en.wikipedia.org/wiki/Generative_music<br>
+
+Algorithmic Composition<br> 
+https://en.wikipedia.org/wiki/Algorithmic_composition<br>
+
+Intelligent Dance Music<br>
+https://en.wikipedia.org/wiki/Intelligent_dance_music<br>
+
+Ambient Music<br>
+https://en.wikipedia.org/wiki/Ambient_music<br>
+
+Musique Concrète<br>
+https://en.wikipedia.org/wiki/Musique_concrete<br>
+
+Glitch Music<br>
+https://en.wikipedia.org/wiki/Glitch_(music)<br>
+
+Industrial Music<br>
+https://en.wikipedia.org/wiki/Industrial_music<br>
+
+Noise Music<br>
+https://en.wikipedia.org/wiki/Noise_music<br>
+
+Synth-Pop<br>
+https://en.wikipedia.org/wiki/Synth-pop<br>
+
+Vaporwave<br>
+https://en.wikipedia.org/wiki/Vaporwave<br>
+
+### Sound Synthesis Pioneers<br>
+
+Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, Caterina Barbieri, Robin Fox, Kosmische Wellen (AI) <br>
+
+### Seismic Data<br>
+
+Global Seismographic Network | EarthScope Consortium<br>
+https://www.earthscope.org/gsn/<br>
+https://github.com/EarthScope<br>
+
+EarthScope Consortium<br> 
+https://en.wikipedia.org/wiki/EarthScope_Consortium<br>
+https://www.earthscope.org/ >> Was IRIS<br>
+https://www.iris.edu/app/seismic-monitor/map<br>
+
+International Federation of Digital Seismograph Networks (FDSN)<br>
+https://docs.fdsn.org/en/latest/<br>
+https://docs.fdsn.org/projects/miniseed3/en/latest/<br>
+
+Global Seismic Network Stations (GSN)<br>
+https://earthquake.usgs.gov/monitoring/operations/network.php?virtual_network=GSN<br>
+
+STATIONS (SOS)<br>
+
+ANMO (Albuquerque, New Mexico, USA)<br> 
+https://earthquake.usgs.gov/monitoring/operations/stations/IU/ANMO/<br>
+IU:ANMO | 34.94591 -106.4572<br>
+
+MIDW (Midway Island - Central Pacific, Equatorial Northern Hemisphere)<br>
+https://earthquake.usgs.gov/monitoring/operations/stations/IU/MIDW/<br>
+IU:MIDW | 28.2156 -177.3698<br>
+
+MAJO (Matsushiro, Japan)<br> 
+https://earthquake.usgs.gov/monitoring/operations/stations/IU/MAJO/<br>
+IU:MAJO | 36.54567 138.20406<br>
+
+CTAO (Charters Towers, Australia - Oceania, Equatorial Southern Hemisphere)<br>
+https://earthquake.usgs.gov/monitoring/operations/stations/IU/CTAO/<br>
+IU:CTAO | -20.08765 146.24998<br>
+
+PMSA (Palmer Station, Antarctica, High-Latitude Southern Hemisphere)<br>
+https://earthquake.usgs.gov/monitoring/operations/stations/IU/PMSA/<br>
+IU: PMSA | -64.7744 -64.0489<br>
+
+(SEED) Standard for the Exchange of Earthquake Data<br> 
+https://ds.iris.edu/ds/nodes/dmc/data/formats/seed/<br>
+
+miniSEED is a subset of the SEED (Standard for the Exchange of Earthquake Data) format, specifically designed for the storage and exchange of seismological time series data. It focuses on the waveform data, omitting much of the detailed metadata found in the full SEED format.
+
+BHZ miniSEED data is the vertical component of ground motion, which is primarily associated with P-waves. S-waves are shear waves and travel with a horizontal motion, while P-waves are compressional waves that travel with a vertical. "BH" typically indicates a Broadband High-gain seismometer, and "Z" denotes the vertical component of ground motion.
+
+[Seismic Field](https://allshookup.org/seismic-field.html)<br> - M6+ Global Earthquakes Since 1900<br>
+
+### Seismic Waveform Data Sonification<br>
+
+Sonification<br>
+https://en.wikipedia.org/wiki/Sonification<br>
+
+Audification<br> 
+https://en.wikipedia.org/wiki/Audification<br>
+
+Seismic Waveform Auditory Display<br>
+https://sos.allshookup.org/auditory-display.html<br>
+
+SeismicSounds<br>
+https://soundcloud.com/seismicsounds<br>
+
+Listening to the Earth sing - Chris Hayward<br>
+https://www.researchgate.net/publication/242638653_Listening_to_the_Earth_sing<br>
+https://soundcloud.com/seismicsounds/listening-to-the-earth-sing<br>
+
+Creating music and art with seismic waves!<br>
+https://www.iris.edu/hq/programs/epo/life_of_a_seismologist/seismic_impact/creating_music_and_art_with_seismic_waves<br>
+
+### AI Seismology<br>
+
+When the Earth Talks, AI Listens<br>
+https://blogs.nvidia.com/blog/earth-ai/<br>
+
+Automatic speech recognition predicts contemporaneous earthquake fault displacement<br>
+https://www.nature.com/articles/s41467-025-55994-9<br>
+
+### Large Language Models<br>
+
+Claude Anthropic<br>
+https://claude.ai/<br>
+
+AIStudio Gemini<br>
+https://aistudio.google.com<br>
+
+ChatGPT OpenAI<br>
+https://chatgpt.com/<br>
+
+GROK xAI<br>
+https://grok.com/<br>
+
+Qwen<br>
+https://qwen.ai<br>
+
+OpenRouter<br>
+https://openrouter.ai/<br>
+
+RooCode<br>
+https://roocode.com/<br>
+
+LMArena<br>
+https://lmarena.ai/<br>
+
+
+
+
+
+
