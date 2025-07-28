@@ -1,6 +1,6 @@
 ![Image](https://github.com/user-attachments/assets/88059152-b8fa-46fc-a498-8801064b5cc4)<br>
 
-# SOS Investigatio / Research
+# SOS Investigatio 
 
 ### Sound Synthesis
 
@@ -81,7 +81,7 @@ https://en.wikipedia.org/wiki/Vaporwave<br>
 
 ### Sound Synthesis Pioneers<br>
 
-Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, Caterina Barbieri, Robin Fox, Kosmische Wellen (AI) <br>
+Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Severed Heads, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, Caterina Barbieri, Robin Fox, Tom Hall, Kosmische Wellen >><br>
 
 ### Seismic Data<br>
 
@@ -161,7 +161,7 @@ https://blogs.nvidia.com/blog/earth-ai/<br>
 Automatic speech recognition predicts contemporaneous earthquake fault displacement<br>
 https://www.nature.com/articles/s41467-025-55994-9<br>
 
-### Large Language Models<br>
+### GenAI Large Language Models<br>
 
 Claude Anthropic<br>
 https://claude.ai/<br>
@@ -183,6 +183,18 @@ https://openrouter.ai/<br>
 
 RooCode<br>
 https://roocode.com/<br>
+
+Github Copilot<br>
+https://github.com/features/copilot<br>
+
+Cursor<br>
+https://cursor.com<br>
+
+Replit<br>
+https://replit.com/<br>
+
+Hugging Face<br>
+https://huggingface.co/<br>
 
 LMArena<br>
 https://lmarena.ai/<br>
