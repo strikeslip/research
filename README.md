@@ -165,39 +165,64 @@ https://www.nature.com/articles/s41467-025-55994-9<br>
 
 Claude Anthropic<br>
 https://claude.ai/<br>
+https://github.com/anthropics<br>
 
 AIStudio Gemini<br>
 https://aistudio.google.com<br>
+https://github.com/google-gemini<br>
 
 ChatGPT OpenAI<br>
 https://chatgpt.com/<br>
+https://github.com/OPENAI<br>
 
 GROK xAI<br>
 https://grok.com/<br>
+https://github.com/xai-org<br>
+
+DeepSeek<br>
+https://deep-seek.chat/<br>
+https://github.com/deepseek-ai<br>
 
 Qwen<br>
 https://qwen.ai<br>
+https://github.com/QwenLM<br>
 
 OpenRouter<br>
 https://openrouter.ai/<br>
+https://github.com/OpenRouterTeam<br>
 
 RooCode<br>
 https://roocode.com/<br>
+https://github.com/RooCodeInc<br>
 
 Github Copilot<br>
 https://github.com/features/copilot<br>
 
 Cursor<br>
 https://cursor.com<br>
+https://github.com/cursor<br>
 
 Replit<br>
 https://replit.com/<br>
+https://github.com/replit<br>
 
 Hugging Face<br>
 https://huggingface.co/<br>
+https://github.com/huggingface<br>
 
 LMArena<br>
 https://lmarena.ai/<br>
+https://github.com/lmarena<br>
+
+Model Context Protocol<br>
+https://modelcontextprotocol.io<br>
+https://github.com/modelcontextprotocol<br><br>
+
+♔♕♖♗♘♙       <br>
+<a href="https://www.pi.infn.it/~carosi/chess/shannon.txt">Programming a Computer for Playing Chess</a></li><br>
+
+
+
 
 
 
