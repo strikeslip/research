@@ -126,7 +126,7 @@ IU: PMSA | -64.7744 -64.0489<br>
 (SEED) Standard for the Exchange of Earthquake Data<br> 
 https://ds.iris.edu/ds/nodes/dmc/data/formats/seed/<br>
 
-miniSEED is a subset of the SEED (Standard for the Exchange of Earthquake Data) format, specifically designed for the storage and exchange of seismological time series data. It focuses on the waveform data, omitting much of the detailed metadata found in the full SEED format.
+<b>miniSEED</b> is a subset of the SEED (Standard for the Exchange of Earthquake Data) format, specifically designed for the storage and exchange of seismological time series data. It focuses on the waveform data, omitting much of the detailed metadata found in the full SEED format.
 
 BHZ miniSEED data is the vertical component of ground motion, which is primarily associated with P-waves. S-waves are shear waves and travel with a horizontal motion, while P-waves are compressional waves that travel with a vertical. "BH" typically indicates a Broadband High-gain seismometer, and "Z" denotes the vertical component of ground motion.
 
