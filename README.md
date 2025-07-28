@@ -216,10 +216,15 @@ https://github.com/lmarena<br>
 
 Model Context Protocol<br>
 https://modelcontextprotocol.io<br>
-https://github.com/modelcontextprotocol<br><br>
+https://github.com/modelcontextprotocol<br>
 
-♔♕♖♗♘♙       <br>
+♔♕♖♗♘♙<br>
 <a href="https://www.pi.infn.it/~carosi/chess/shannon.txt">Programming a Computer for Playing Chess</a></li><br>
+
+<i>"When machines generate art or ideas, they challenge us to redefine what it means to be human."
+--Jaron Lanier</i><br>
+
+
 
 
 
