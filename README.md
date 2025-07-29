@@ -218,6 +218,11 @@ Model Context Protocol<br>
 https://modelcontextprotocol.io<br>
 https://github.com/modelcontextprotocol<br>
 
+WARP (MCP)<br>
+https://www.warp.dev/<br>
+https://docs.warp.dev/<br>
+https://github.com/warpdotdev<br>
+
 ♔♕♖♗♘♙<br>
 <a href="https://www.pi.infn.it/~carosi/chess/shannon.txt">Programming a Computer for Playing Chess</a></li><br>
 
