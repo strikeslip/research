@@ -1,0 +1,90 @@
+AI-PROMPT-ENGINEER-NOTES.txt
+
+Prompt engineering
+https://en.wikipedia.org/wiki/Prompt_engineering
+
+Generative artificial intelligence (Generative AI, GenAI, GAI)
+https://en.wikipedia.org/wiki/Generative_artificial_intelligence
+
+Artificial general intelligence (AGI)
+https://en.wikipedia.org/wiki/Artificial_general_intelligence
+
+Artificial Superintelligence (Hypothetical)
+https://en.wikipedia.org/wiki/Superintelligence#Feasibility_of_artificial_superintelligence
+
+===============================
+
+The Prompt Report: A Systematic Survey of Prompting Techniques
+https://sanderschulhoff.com/Prompt_Survey_Site/
+https://github.com/trigaten/The_Prompt_Report
+https://x.com/SanderSchulhoff
+By https://github.com/trigaten
+
+https://www.hackaprompt.com/
+https://learnprompting.org - paid course meh
+https://learnprompting.org/docs/introduction - docs are good
+
+AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff
+https://youtu.be/eKuFqQKYRrA?si=168aeJUHHTcnCYQX
+
+"artificial social intelligence" is "prompt engineering"
+
+What is Artificial Social Intelligence?
+https://learnprompting.org/blog/asi
+
+=========================================
+Type Of Prompts
+
+See PROMPT-TYPES.pdf
+
+Zero-Shot Prompting: often less effective than few-shot 
+
+One-Shot Prompting: Providing a single example to guide the AI
+
+Few-Shot Prompting: Recommended basic technique, involving multiple examples to clarify expectations
+
+Chain of Thought (Thought Generation): Step-by-step reasoning, thought generation technique
+
+Ensembling: advanced technique involving multiple prompts
+
+Decomposition Prompting
+Definition: Decomposition prompting involves breaking down a complex task into smaller, manageable subproblems that the AI solves sequentially before addressing the main task. This approach helps the AI tackle intricate problems systematically, improving accuracy and clarity.
+
+Self-Criticism Prompting
+Definition: Self-criticism prompting involves asking the AI to evaluate its own response, identify potential errors or weaknesses, and then improve the output based on its critique. This technique leverages the AI’s ability to reflect on its work to produce higher-quality results.
+
+
+Detail what is each type of prompting below and generate example for each.
+Your subject is music sonification of seismic waveform minified data;
+
+1. Zero-Shot Prompting
+2. One-Shot Prompting
+3. Few-Shot Prompting
+4. Chain of Thought Prompting
+5. Ensembling Prompting
+6. Decomposition Prompting
+7. Self-Criticism Prompting
+
+1. Zero-Shot Prompting: Asking the AI to perform a task without any examples, relying solely on its pre-trained knowledge.
+Example Context: Requesting a method to sonify seismic miniseed data without showing how it’s done.
+2. One-Shot Prompting: Providing a single example of input and output to guide the AI’s response.
+Example Context: Showing one case of mapping seismic data to music to shape the AI’s sonification method.
+3. Few-Shot Prompting: Giving multiple (2–5) examples of input-output pairs to clarify the task and ensure consistent output.
+Example Context: Providing several examples of seismic data mapped to musical elements to guide sonification.
+4. Chain of Thought Prompting: Instructing the AI to reason step-by-step through a task to improve accuracy and transparency.
+Example Context: Asking the AI to explain each step of mapping seismic data to music before finalizing the method.
+5. Ensembling Prompting: Using multiple prompts or models to solve the same task and selecting the most common or best result.
+Example Context: Combining sonification methods from different perspectives (e.g., music producer, seismologist) for a robust output.
+6. Decomposition Prompting: Breaking a complex task into smaller subproblems, solving each before addressing the main task.
+Example Context: Dividing seismic sonification into subproblems like data preprocessing and musical mapping.
+7. Self-Criticism Prompting: Asking the AI to critique its initial response and revise it to improve quality.
+Example Context: Having the AI review its seismic sonification method for errors and refine it.
+
+
+
+========================================
+
+
+
+
+
