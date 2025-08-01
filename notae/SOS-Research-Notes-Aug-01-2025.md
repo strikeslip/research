@@ -33,7 +33,7 @@ Types of Prompting SOS will use;
 3. Decomposition Prompting
 4. Self-Criticism Prompting
 
-See: PROMPT-TYPES.pdf
+See: [SOS-PROMPT-TYPES.pdf](https://github.com/strikeslip/research/blob/main/notae/SOS-PROMPT-TYPES.pdf)<br>
 
 Types of Audio Synthesis 
 
