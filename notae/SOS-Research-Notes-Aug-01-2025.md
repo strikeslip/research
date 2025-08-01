@@ -11,10 +11,6 @@ The following notes need structure and organisation into the following categorie
 6. AI Seismology
 7. AI Large Language Models
 
-==================
-SOS-2025-Notes.txt
-==================
-
 MIT License
 
 Copyright (c) [*02025] [SHOOK]
@@ -59,7 +55,7 @@ Granular, Wavetable, Additive, Frequency Modulation, Subtractive
 Additive, Wavetable, FM, Granular, Subtractive, Pulsar, Phase, Vector and Subtractive Synthesis
 
 
-#Additive - Delay/Feedback/Pluck Strings-Grains >> FFT
+#Additive - Delay/Feedback/Pluck Strings-Grains >> FFT<br>
 https://en.wikipedia.org/wiki/Additive_synthesis
 
 #Wavetable
@@ -94,24 +90,21 @@ https://en.wikipedia.org/wiki/Subtractive_synthesis
 
 - Amplitude Modulation (AM) and Ring Modulation (RM)
 
-===================
-Sound Synthesis Pioneers
-===================
+"Sound Synthesis Pioneers"
 
 Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Severed Heads, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, A.G. Cook, Caterina Barbieri, Robin Fox, Tom Hall, Kosmische Wellen >>
 
 obscure and talented with synthesizers artists? 2025
 https://www.reddit.com/r/synthesizers/comments/1lyne08/obscure_and_talented_with_synthesizers/
 
-
 Sound synthesis types >> https://en.wikipedia.org/wiki/Category:Sound_synthesis_types
 
-+++++++++++++++++++++++++++++++++++++++++++
+======================================================
 
-Realtime Stream >> MAJO (IU) Japan
+Seismic Wave & Magnetic Field Correlation 
+Study Schuman Resonances
+https://en.wikipedia.org/wiki/Schumann_resonances
 
-Seismic Wave & Magnetic Field Correlation
--Schuman Resonances
 ======================================================
 
 Create “Interactive Globe + Earthquake Plot in Python
