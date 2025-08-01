@@ -47,6 +47,10 @@ https://en.wikipedia.org/wiki/Buchla_Electronic_Musical_Instruments<br>
 Elektron Monomachine<br>
 https://en.wikipedia.org/wiki/Elektron_Monomachine<br>
 
+### Web Audio API<br>
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API<br>
+https://webaudio.github.io/web-audio-api/<br>
+
 ### Sythesis Music Genres<br>
 
 Generative Music<br> 
