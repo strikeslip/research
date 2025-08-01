@@ -757,7 +757,7 @@ const url = `https://service.iris.edu/fdsnws/dataselect/1/query?net=IU&sta=ANMO&
 ==========================================================================
 import { miniseed, seismogram } from './seisplotjs_3.1.4_standalone.mjs';
 
-*** seisplotjs_3.1.4_standalone.mjs is too large 2.3mb
+seisplotjs_3.1.4_standalone.mjs is too large 2.3mb
 ==========================================================================
 
 // Ultra-minimal MiniSEED parser for IU.ANMO.00.BHZ (assumes Int32 data)
