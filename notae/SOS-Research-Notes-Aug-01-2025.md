@@ -157,8 +157,6 @@ Archived @ https://github.com/ALLSHOOK/SOS<br>
 CDP Unstablesound - CDP Release 8 Downloads<br>
 https://www.unstablesound.net/cdp.html
 
-+ https://www.soundshaper.net/ (NO OSX Win$)<br>
-
 UNLOCK the secrets of CDP Composers Desktop Project<br>
 https://youtu.be/n-xHr61m0sY?si=ZmDmC8WYWxP7UyiR
 
@@ -174,7 +172,7 @@ SuperCollider<br>
 https://supercollider.github.io/
 https://en.wikipedia.org/wiki/SuperCollider
 
-HIGH C - inspired by Iannis Xenakis (UPIC)
+HIGH C - inspired by Iannis Xenakis (UPIC)<br>
 https://en.wikipedia.org/wiki/HighC
 https://highc.org/
 https://highc.org/history.html
