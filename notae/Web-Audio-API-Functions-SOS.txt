@@ -1,0 +1,190 @@
+
+===============================
+Web-Audio-API-Functions-SOS.txt
+===============================
+
+Based on the provided documents (SOS-SYNTHESIS-GUIDE-AIStudio-G.txt and SOUNDS-OF-SEISMIC-SYNTHESIS-GROK3.txt) and the prior response detailing Web Audio API functions for the Sounds of Seismic (SOS) project, this response lists all Web Audio API functions and nodes required for SOS sonifications, ensuring comprehensive coverage of the synthesis techniques (granular, wavetable, additive, frequency modulation, subtractive, amplitude modulation, and ring modulation) as described in both documents. The implementation is tailored for a pure HTML/JavaScript environment using the Web Audio API, with no external dependencies, and assumes seismic waveform data is provided as numerical arrays (e.g., amplitude values). The list is derived from the technical specifications in SOUNDS-OF-SEISMIC-SYNTHESIS-GROK3.txt and aligns with the creative goals outlined in SOS-SYNTHESIS-GUIDE-AIStudio-G.txt, avoiding redundancy and addressing the gaps noted in the comparison (e.g., data pipeline, UI/UX, and performance are not covered here as they are outside the scope of Web Audio API functions).
+The list includes all necessary nodes, their methods, properties, and associated JavaScript timing functions for scheduling and modulation, ensuring the sonification of seismic data into electronica soundscapes inspired by artists like Boards of Canada, Aphex Twin, Autechre, Brian Eno, and Richard Devine. The functions are organized by node and synthesis technique, with brief explanations of their roles in SOS.
+
+Web Audio API Functions and Nodes for Sounds of Seismic (SOS) Sonifications
+1. Core Audio Context
+AudioContext: Manages the audio processing graph for all synthesis techniques.
+new AudioContext(): Initializes the audio context for all audio operations.
+
+AudioContext.createOscillator(): Creates an OscillatorNode for generating waveforms (used in wavetable, additive, FM, subtractive, AM).
+
+AudioContext.createGain(): Creates a GainNode for amplitude control (used in all synthesis techniques for envelopes, modulation, and dynamics).
+
+AudioContext.createBiquadFilter(): Creates a BiquadFilterNode for filtering (used in subtractive, Karplus-Strong, pulsar, and formant synthesis).
+
+AudioContext.createDelay(): Creates a DelayNode for delay effects (used in Karplus-Strong and feedback FM).
+
+AudioContext.createAnalyser(): Creates an AnalyserNode for FFT analysis (used in spectral granular, wavetable resynthesis, additive resynthesis).
+
+AudioContext.createBufferSource(): Creates an AudioBufferSourceNode for grain playback (used in granular synthesis).
+
+AudioContext.createScriptProcessor(): Creates a ScriptProcessorNode for custom processing (used in ring modulation, exponential FM, phase modulation).
+
+AudioContext.createPeriodicWave(): Creates a PeriodicWave for custom wavetables (used in wavetable synthesis).
+
+AudioContext.createBuffer(numChannels, length, sampleRate): Creates an AudioBuffer to store seismic data as a float array (used in granular synthesis).
+
+AudioContext.currentTime: Provides the current timestamp for scheduling audio events (used in sequential structures, granular, and dynamic modulation).
+
+AudioContext.destination: Connects nodes to the output (e.g., speakers) for all synthesis techniques.
+
+AudioContext.resume(): Resumes a suspended AudioContext to start playback.
+
+AudioContext.suspend(): Suspends the AudioContext for pausing (optional for user control).
+2. OscillatorNode (Used in Wavetable, Additive, FM, Subtractive, AM)
+OscillatorNode.start(time): Starts the oscillator at a specified time for scheduling sounds in all oscillator-based synthesis (e.g., wavetable morphing, FM sidebands).
+
+OscillatorNode.stop(time): Stops the oscillator at a specified time for precise control in sequential structures (e.g., granular-like sequencing in pulsar synthesis).
+
+OscillatorNode.type: Sets waveform type ("sine", "sawtooth", "square", "triangle") for subtractive, FM, and AM synthesis (e.g., sawtooth for warm basses, sine for FM carriers).
+
+OscillatorNode.frequency: An AudioParam to set or modulate frequency (mapped to seismic frequency for pitch control in FM, additive, subtractive, AM).
+
+OscillatorNode.setPeriodicWave(PeriodicWave): Applies a custom wavetable for wavetable synthesis (e.g., morphing seismic-derived waveforms).
+
+OscillatorNode.connect(node): Connects to other nodes (e.g., GainNode, BiquadFilterNode) for signal flow in linear structures.
+
+OscillatorNode.disconnect(node): Disconnects for dynamic routing (e.g., reconfiguring FM algorithms).
+3. GainNode (Used in All Synthesis Techniques)
+GainNode.gain: An AudioParam to control amplitude (mapped to seismic amplitude for envelopes in subtractive, granular grain loudness, FM modulation index, AM depth, additive partial amplitudes).
+
+GainNode.connect(node): Connects to other nodes (e.g., BiquadFilterNode, AudioContext.destination) for signal flow.
+
+GainNode.disconnect(node): Disconnects for dynamic routing.
+
+GainNode.gain.setValueAtTime(value, time): Sets gain at a specific time for ADSR envelopes or amplitude modulation (e.g., seismic-driven dynamics in subtractive synthesis).
+
+GainNode.gain.linearRampToValueAtTime(value, time): Creates linear gain ramps for smooth envelope transitions (e.g., ADSR in subtractive, AM tremolo).
+
+GainNode.gain.exponentialRampToValueAtTime(value, time): Creates exponential gain ramps for natural decay (e.g., plucked sounds in Karplus-Strong, AM).
+
+GainNode.gain.setValueCurveAtTime(values, startTime, duration): Applies custom curves for complex envelopes (e.g., dynamic FM, granular grain envelopes).
+4. BiquadFilterNode (Used in Subtractive, Karplus-Strong, Pulsar, Formant Synthesis)
+BiquadFilterNode.type: Sets filter type ("lowpass", "highpass", "bandpass", "notch") for subtractive synthesis subsets (e.g., lowpass for warm seismic rumbles, highpass for transients).
+
+BiquadFilterNode.frequency: An AudioParam to set cutoff frequency (mapped to seismic amplitude for dynamic timbres in subtractive, pulsar).
+
+BiquadFilterNode.Q: An AudioParam to set resonance (used in resonance-enhanced subtractive, formant synthesis for vocal-like timbres).
+
+BiquadFilterNode.connect(node): Connects to other nodes (e.g., GainNode, AudioContext.destination) for signal flow.
+
+BiquadFilterNode.disconnect(node): Disconnects for dynamic routing.
+
+BiquadFilterNode.frequency.setValueAtTime(value, time): Sets cutoff frequency for filter sweeps (e.g., seismic-driven filter opens for transients).
+
+BiquadFilterNode.frequency.linearRampToValueAtTime(value, time): Creates linear cutoff ramps for dynamic timbres (e.g., evolving subtractive basses).
+
+BiquadFilterNode.Q.setValueAtTime(value, time): Sets resonance for dynamic effects (e.g., squelchy basses in resonance-enhanced subtractive).
+5. DelayNode (Used in Karplus-Strong, Feedback FM)
+DelayNode.delayTime: An AudioParam to set delay time (mapped to seismic frequency for Karplus-Strong’s plucked string resonance or feedback FM’s recursive modulation).
+
+DelayNode.connect(node): Connects to other nodes for feedback loops (e.g., Karplus-Strong’s filtered delay).
+
+DelayNode.disconnect(node): Disconnects for dynamic routing.
+
+DelayNode.delayTime.setValueAtTime(value, time): Sets delay time for precise control (e.g., tuning Karplus-Strong’s pitch).
+6. AnalyserNode (Used in Spectral Granular, Wavetable Resynthesis, Additive Resynthesis)
+AnalyserNode.fftSize: Sets FFT size (e.g., 2048) for detailed seismic spectral analysis.
+
+AnalyserNode.getFloatFrequencyData(array): Retrieves frequency domain data for FFT analysis (informs grain pitch, wavetable shapes, additive partials).
+
+AnalyserNode.connect(node): Connects to other nodes for monitoring (optional).
+
+AnalyserNode.disconnect(node): Disconnects for dynamic routing.
+7. AudioBufferSourceNode (Used in Granular Synthesis)
+AudioBufferSourceNode.buffer: Sets the AudioBuffer containing seismic data for grain playback.
+
+AudioBufferSourceNode.playbackRate: An AudioParam to control grain pitch (mapped to seismic frequency).
+
+AudioBufferSourceNode.start(time, offset, duration): Starts grain playback at a specific time, offset, and duration for granular scheduling (e.g., asynchronous or pulsar grains).
+
+AudioBufferSourceNode.stop(time): Stops grain playback for precise control.
+
+AudioBufferSourceNode.connect(node): Connects to GainNode or BiquadFilterNode for grain processing.
+
+AudioBufferSourceNode.disconnect(node): Disconnects for dynamic routing.
+
+AudioBufferSourceNode.playbackRate.setValueAtTime(value, time): Sets playback rate for pitch modulation (e.g., seismic-driven grain pitch shifts).
+8. ScriptProcessorNode (Used in Ring Modulation, Exponential FM, Phase Modulation)
+ScriptProcessorNode.onaudioprocess: Defines a callback for custom audio processing (e.g., signal multiplication for RM, exponential FM calculations).
+
+ScriptProcessorNode.connect(node): Connects to other nodes for output.
+
+ScriptProcessorNode.disconnect(node): Disconnects for dynamic routing.
+
+ScriptProcessorNode.bufferSize: Sets buffer size (e.g., 256 or 512) for low-latency processing.
+9. PeriodicWave (Used in Wavetable Synthesis)
+PeriodicWave(fftReal, fftImag): Creates a custom wavetable from Fourier coefficients (derived from seismic data via FFT or manual design).
+
+OscillatorNode.setPeriodicWave(PeriodicWave): Applies the wavetable to an OscillatorNode for wavetable synthesis.
+10. AudioBuffer (Used in Granular Synthesis)
+AudioContext.createBuffer(numChannels, length, sampleRate): Creates an AudioBuffer to store seismic data as a float array.
+
+AudioBuffer.getChannelData(channel): Accesses the buffer’s data to load seismic amplitude values.
+
+AudioBuffer.copyToChannel(floatArray, channel): Copies seismic data into the buffer for granular playback.
+11. JavaScript Timing Functions (Used for Sequential Structures)
+setInterval(callback, ms): Schedules periodic events (e.g., triggering grains in synchronous granular or pulsar synthesis).
+
+setTimeout(callback, ms): Schedules one-time events (e.g., envelope timing for ADSR).
+
+requestAnimationFrame(callback): Synchronizes updates with browser rendering for smooth parameter modulation (e.g., wavetable position, filter sweeps).
+Synthesis-Specific Usage in SOS
+Granular Synthesis (Classic, Synchronous, Pulsar, Spectral, Resynthesis):
+Nodes: AudioBufferSourceNode, GainNode, AnalyserNode, BiquadFilterNode.
+
+Functions: AudioContext.createBufferSource, AudioBufferSourceNode.start/stop/playbackRate.setValueAtTime, GainNode.gain.setValueAtTime, AnalyserNode.getFloatFrequencyData, setInterval.
+
+Role: Schedules grains from seismic data arrays, modulating pitch (playbackRate) and amplitude (GainNode.gain) for glitchy rhythms (e.g., Aphex Twin’s Vordhosbn) or ambient pads (e.g., Brian Eno’s Reflection). Pulsar synthesis uses BiquadFilterNode for formant resonance.
+Wavetable Synthesis (Classic, Vector, Sample-Based, Morphing, Resynthesis):
+Nodes: OscillatorNode, PeriodicWave, GainNode, AnalyserNode.
+
+Functions: AudioContext.createPeriodicWave, OscillatorNode.setPeriodicWave/frequency.setValueAtTime, GainNode.gain.setValueAtTime, AnalyserNode.getFloatFrequencyData.
+
+Role: Morphs through seismic-derived wavetables, automating position via AudioParam for dynamic pads (e.g., Boards of Canada’s Geogaddi) or leads (e.g., Aphex Twin’s Windowlicker).
+Additive Synthesis (Classic, Spectral, Harmonic, Inharmonic, Karplus-Strong, Formant):
+Nodes: OscillatorNode, GainNode, DelayNode, BiquadFilterNode, AnalyserNode.
+
+Functions: AudioContext.createOscillator, OscillatorNode.start/stop/frequency.setValueAtTime, GainNode.gain.setValueAtTime, DelayNode.delayTime.setValueAtTime, AnalyserNode.getFloatFrequencyData.
+
+Role: Sums sine waves for harmonic (e.g., Brian Eno’s Reflection) or inharmonic timbres (e.g., Autechre’s Gantz Graf), with Karplus-Strong using DelayNode for plucked strings (e.g., Richard Devine’s Asect:Dsect).
+Frequency Modulation (FM) Synthesis (Linear, Phase, Exponential, Dynamic, Feedback, Formant):
+Nodes: OscillatorNode, GainNode, ScriptProcessorNode, DelayNode, BiquadFilterNode.
+
+Functions: AudioContext.createOscillator, OscillatorNode.frequency.setValueAtTime, GainNode.gain.setValueAtTime, ScriptProcessorNode.onaudioprocess, DelayNode.delayTime.setValueAtTime.
+
+Role: Modulates carrier frequency for metallic stabs (e.g., Aphex Twin’s Windowlicker) or vocal drones (e.g., Aphex Twin’s Come to Daddy), using ScriptProcessorNode for complex FM variants.
+Subtractive Synthesis (Classic, Low-Pass, High-Pass, Band-Pass, Notch, Resonance-Enhanced):
+Nodes: OscillatorNode, BiquadFilterNode, GainNode.
+
+Functions: AudioContext.createOscillator, OscillatorNode.type/frequency.setValueAtTime, BiquadFilterNode.type/frequency/Q.setValueAtTime, GainNode.gain.setValueAtTime.
+
+Role: Filters rich waveforms for warm basses (e.g., Boards of Canada’s Dayvan Cowboy) or sharp percussion (e.g., Aphex Twin’s Druqks), with seismic amplitude driving filter cutoff.
+Amplitude Modulation (AM) and Ring Modulation (RM):
+Nodes: OscillatorNode, GainNode, ScriptProcessorNode, BiquadFilterNode.
+
+Functions: OscillatorNode.frequency.setValueAtTime, GainNode.gain.setValueAtTime, ScriptProcessorNode.onaudioprocess, BiquadFilterNode.frequency.setValueAtTime.
+
+Role: AM creates pulsating drones (e.g., Boards of Canada’s Geogaddi) via GainNode modulation, and RM produces metallic hits (e.g., Autechre’s Confield) via ScriptProcessorNode.
+Notes
+No Dependencies: All functionality uses native Web Audio API and JavaScript, with seismic data as numerical arrays loaded directly in the browser.
+
+Seismic Data Mapping:
+Amplitude: Maps to GainNode.gain (envelopes, AM, FM index, granular density), BiquadFilterNode.frequency (filter sweeps), or ScriptProcessorNode scaling (RM).
+
+Frequency: Maps to OscillatorNode.frequency (pitch), AudioBufferSourceNode.playbackRate (granular pitch), or formant settings.
+
+Spectral Content: Uses AnalyserNode.getFloatFrequencyData to inform wavetable shapes, grain pitches, or partial amplitudes.
+Performance Considerations: ScriptProcessorNode is used for RM and complex FM but may be replaced with AudioWorkletNode (not listed, as it’s advanced) for better performance. Voice management (limiting active OscillatorNodes or AudioBufferSourceNodes) is implied but not explicitly coded here.
+
+Scheduling: AudioContext.currentTime and setInterval/setTimeout ensure precise timing for sequential structures (e.g., granular grains, pulsar rhythms).
+
+Alignment with Documents: The list reflects the technical implementation in SOUNDS-OF-SEISMIC-SYNTHESIS-GROK3.txt and supports the creative vision in SOS-SYNTHESIS-GUIDE-AIStudio-G.txt, covering all synthesis techniques and subsets for SOS.
+This list comprehensively covers all Web Audio API functions and nodes required for SOS sonifications as of June 30, 2025, 11:02 PM +08, ensuring implementation of all described synthesis techniques for geologically inspired electronica soundscapes.
+
+
