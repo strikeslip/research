@@ -1,19 +1,9 @@
-Sounds of Seismic Research Notes 2025
-Correlated by Aug 1st 2025
+Sounds of Seismic Research Notes 2025<br>
+Correlated Aug 1st 2025
 
-The following notes need structure and organisation into the following categories;
-
-1. Sound Synthesis
-2. Synthesis Tools
-3. Synthesis Music Composition
-4. Sound Synthesis Musicians
-5. Seismic Data
-6. AI Seismology
-7. AI Large Language Models
-
-MIT License
-
-Copyright (c) [*02025] [SHOOK]
+MIT License<br>
+Copyright (c) [*02025] [SHOOK]<br>
+https://sos.allshookup.org/<br>
 
 <!--
 [SOS - Sounds Of Seismic]
@@ -24,10 +14,17 @@ SOS is free software: you can redistribute it and/or modify
 it under the terms of the MIT License (https://opensource.org/license/mit)
 -->
 
-/*──────────────── helpers ────────────────*/
-
 <!--This is a comment. Comments are not displayed in the browser-->
 
+The following notes need structure and organisation into the following categories;
+
+1. Sound Synthesis
+2. Synthesis Tools
+3. Synthesis Music Composition
+4. Sound Synthesis Musicians
+5. Seismic Data
+6. AI Seismology
+7. AI Large Language Models
 
 Types of Prompting SOS will use;
 
