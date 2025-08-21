@@ -90,7 +90,7 @@ https://en.wikipedia.org/wiki/Category:Sound_synthesis_types
 
 <b>"Sound Synthesis Pioneers"</b>
 
-Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Severed Heads, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, A.G. Cook, Caterina Barbieri, Robin Fox, Tom Hall, Kosmische Wellen >>
+Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, DEVO, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Severed Heads, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, A.G. Cook, Caterina Barbieri, Robin Fox, Tom Hall, Kosmische Wellen >>
 
 obscure and talented with synthesizers artists? 2025<br>
 https://www.reddit.com/r/synthesizers/comments/1lyne08/obscure_and_talented_with_synthesizers/
