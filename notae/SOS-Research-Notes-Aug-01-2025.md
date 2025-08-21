@@ -561,10 +561,13 @@ TuD20110.pdf
 
 Chris Hayward Papers<br>
 https://www.researchgate.net/profile/Chris-Hayward-4<br>
+
 79. Listening To The EarthSing - Chris Hayward<br>
 https://soundcloud.com/seismicsounds/listening-to-the-earth-sing<br>
+
 Listening to the Earth sing - Chris Hayward<br>
 https://www.researchgate.net/publication/242638653_Listening_to_the_Earth_sing<br>
+
 +ListeningtotheEarthSing.pdf
 +ListeningtotheEarthSing-AIStudio/pdf
 
