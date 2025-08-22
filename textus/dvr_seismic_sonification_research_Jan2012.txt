@@ -1,0 +1,199 @@
+DVR Seismic Sonification Research 16/17th Jan *02012
+
+============
+
+Parkfield Earthquake SonificationSeptember 28, 2004 M 6.0 
+
+by Andy Michael and Bill Ellsworth
+
+The sound files were created by using SAC2000 (Seismic Analysis Code) (IRIS) to up sample the original data and Matlab to write the wav files. The wav files are automatically clipped to fall within a range of -1 to 1 (e.g. amplitudes larger than 1 are replaced by 1).
+
+http://www.cisn.org/special/evt.04.09.28/sounds.html
+
+============
+
+AUDITORY SEISMOLOGY - Florian Dombois 
+http://www.auditory-seismology.org/
+
+Usually seismic waves have a frequency spectrum below 1 Hz and therefore cases are rare where earthquakes are accompanied by hearable sounds. The human audio spectrum ranges between 20 Hz - 20 kHz which is much above the spectrum of the earth's rumbling and tumbling.
+----
+
+USING AUDIFICATION IN PLANETARY SEISMOLOGY - Florian Dombois 2001
+ref: planetary_sonification_dombois_2001.pdf
+
+Seismological waves follow the same physics as acoustic waves and both can be described by wave equation. A difference is that the frequency spectrum in seismology ranges from 20 Hz to periods of 1 h whereas in acoustics it ranges between 20 Hz and 20 kHz.
+
+In reducing the three seismological components (two horizontal, one vertical) I chose the vertical z-component in my study for two reasons: (i) often the three components of a seismogram (two horizontal and one vertical) sound similar even though they are visually different; (ii) assuming that the ground represents a big speaker it would be the z-component that would be to hear.
+
+----
+
+AUDITORY SEISMOLOGY ON FREE OSCILLATIONS, FOCAL MECHANISMS, EXPLOSIONS AND SYNTHETIC SEISMOGRAMS -  Florian Dombois 2002
+ref: Dombois2002.pdf
+
+The main instrument in seismology is the seismometer which registers the earth's movement at its surface. The received signals range usually from 20 Hz down to about 0,3 mHz which are not audible. 
+
+The character of the audified signal is influenced by the compression method. I usually work with linear compression to keep the signal's characteristic. But this approach has some limitations which need to be kept in mind: Seismic signals can have a frequency spectrum up to 17 octaves from which linear transformation can only display up to 10. So far I use factor 2.200 as a standard time-compression and in cases where more detailed information is needed a factor of 1.100. From my experience this frame of the spectrum seems to provide most of the signal's crucial information.
+
+In seismology registration is done with 24 bit, sometimes even 32 bit, to get full resolution for background noise as well as high magni-tude earthquakes. To transform the seismic signal to the audio range, a reduction to 16 bit has to be done. 
+
+Acoustic waves are air waves (1-dimensional) whereas seismic waves are body waves (3-dimensional). Audified seismograms can therefore display only one component of a 3-dimensional registration, which in seismology usually is: north-south (horizontal), east-west (horizontal), and z (vertical). Doing some tests I found that surprisingly the acoustic characteristics of the three components differ much less than the visual. In the examples I listened to I could not trace any dramatic change in sound between the three components. So I became convinced that using only one component should serve for further investigations. I chose the vertical z-component as a reference, argueing that if the surface of the earth functions as a speaker's membrane, it is the z-component that produces the sound.
+
+---
+
+SONIC EXPLORATIONS WITH EARTHQUAKE DATA - 2008
+Manuela Meier & Anna Saranti
+ref: Earthquake_ICAD08.pdf
+
+Earthquake event data is described as control and waveform data stored in different kinds of formats such as SEED (Standard for the Exchange of Earthquake Data), SAC (Seismic Analysis Code) and SEG-Y (file format developed by Society of Exploration Geophysicists) has to be converted to audio data afterwards.
+
+2.2. SEED/miniSEEDformatThe main reasons for using SEED [6], an international standard format for the exchange of digital seismological data, were that it is one of the newest formats, is well-supported and documented and shows a great deal of detailed information, such as glitches and sample rates.
+SEED can be divided in two parts: dataless SEED volumes and data-only SEED records (miniSEED) [7]. Dataless SEED volumes contain metadata and control data that provide mainly information about the seismic stations and consist of Volume Index Control, Abbreviation Dictionary Control and Station Control headers, whereas miniSEED data records are without any of the associated control header information but contain the seismic waveform.	Information about specific earthquake events and stations was preselected by the composers and therefore available for querying the appropriate waveform stored as miniSEED.
+
+2.3. DataretrievalprogramsDuring the course of the project several programs, either GUI- oriented or command line-based, were tested as request tools for data retrieval. SeismiQuery and jweed are some examples for GUI-oriented software, whereas jrdseed, verseed and SeedLink are command line-based. There are also programs which operate seismic waveform processing, such as SAC, interesting for analysis and filtering of seismic signals.1
+The decision to use the miniSEED format and slinktool (a SeedLink protocol client) for the project was made because slinktool is a non-GUI command line tool. The user is able to derive waveform data streams of a station for a user-defined period of time.
+Although the request tools jweed and SeismiQuery are easy to use and store data in the SAC and miniSEED formats as well, they do not provide continuous data streams, as they only hold a small time span of the tremor. The programs jrdseed and verseed also produce SEED and SAC but not miniSEED files. Furthermore the user must be aware of the fact that identically named formats are not always organized in the same way when coming from different networks.
+
+2.5. ConversiontoaudiodataThe conversion of miniSEED to audio data works with three libraries: SeisFile [10] (library for reading various seismic file types), SeedCodec [11] (collection of compression and decompression routines for standard seismic data formats) and jMusic [12] (for conversion of seismic waveform to acoustic waveform data). Data from different stations can be compressed using different algorithms and must be first decompressed and later audified. One of the most common compression methods is the Steim1 compression [13].
+A miniSEED2aiff.java program was developed to open and validate the file, extract parameters and apply an algorithm for the decompression, normalisation and writing of the waveform data as an audio file.
+
+5. THECOMPOSITION
+“underground sounds”- sonic explorations with earthquake data (electroacoustic composition in four parts)1_tremor 
+2_trigger 
+3_wake 
+4 vacillation_1_2_3
+The four parts of the composition display specific structures of earthquakes.
+
+Earthquake sounds typically oscillate between two poles: the normal sounds of the earth’s resonation and the sounds of the earth excited by an earthquake’s tremor. The undulatory sound of the normally resonating earth, varying slightly, contains noise as well as harmonic components. Although the overall impression of the sound is unitary, it shows clearly distinguishable differing densities and volumes in particular frequency ranges of its rich spectra, influenced by the choice of specific sampling rates. The use of different sampling rates also enables both differing gradations of sound color and the highlighting of unique textures which proceed without end and without any sign of a regular or predictable pattern.
+
+In contrast, the brief, impulse-like tremor appears unexpectedly, its sudden intensity drawing attention to itself. It is of high amplitude and even broader frequency range than the resonating earth.
+
+When composing “underground sounds” and “1 tremor” in particular, one of the concepts pursued was the exploration of our own perception. In this case we chose extracts from earthquake recordings to work out specific questions (see itemization section 2). The extracts became musical motives, which were combined to construct musical patterns.	The variations were executed using several signal-processing effects. However, the focus lay on creating manipulated versions of, and patterns within, a continuing overall sound.
+
+Spatialisation was used as a function for displaying the artistic implementation of the field of human perception during an earthquake event.	The first performance took place in the Institute of Electronic Music and Acoustics’ (IEM) concert room Cube [18], equipped with a hemisphere consisting of 24 loudspeakers and allowed reproduction of three-dimensional soundfields following ambisonic principles [19].
+
+5.1. 1_tremorThe earthquake’s development is examined and recreated artistically, using material from various stations. Signal alterations of the audio data include various playback speeds and the same channel type from different stations. In terms of spatialisation, the sound in the first part of underground sounds comes from above and behind from the audiences perspective, underlining the unpredictability and indirectness of the process.
+
+5.2. 2_triggerThe envelope of a specific earthquake’s audio file is decisive for the form of the second part of the composition, triggering time windows where another layer of sound can be heard. The envelope itself is very unique, so even if the second layer of sound is of either harmonic or noisy nature, its structure is still associated with earthquakes.
+The second layer of sound consists of the filtered harmonics of the measuring instruments, generated by the excitation of each seismometer’s eigenfrequency through the same frequency of seismic ground movement while recording. Switching over to another measuring sample rate does not affect the resonating frequency corresponding in our case to a specific pitch.
+
+In thinking about the earth as a resonance corpus, the question arose of how an extraterrestrial tremor would sound. Examples of scientific exploration in this field are mentioned in Till F. Sonnemann’s thesis [20], where he evaluates data of lunar seismic events. Bearing in mind that the sun’s electromagnetic field exerts a great influence on the earth’s magnetic field, which in turn affects seismic activity, audio files of the solar electromagnetic field [21] were used and source filter separations applied as before with data from the earth. The sun’s constant movements were reconnected through convolution with the impulse-like part of an earth’s tremor. From an artistic point of view this could be interpreted as reexciting the sun’s electromagnetic field with the earthquake’s impulse.
+
+The sound distribution is almost identical to that in “1 tremor”, the sources still positioned mainly in the back. Now, however, single sources also come from the front. The Cube’s ambisonic sound system allows sound to emerge at almost ground level, so that the audience is surrounded and covered by sound. Only the front-center and front-left areas of the hemisphere remain silent.
+
+5.3. 3_wakeThe idea of placing different source signal separated audio files in linear succession through convolution arose. This describes a concentrated audio file combining several earthly resonances with the result of a “hyper-earth”. Random playback speeds are also utilized. Through multiplying the spectra of selected audio files a new waveform is created. This waveform, to the ear of the listener, sounds even richer in the density of contained events.
+
+The change in sound distribution from the second to the third part of the composition displays a noticable switch from ground level to the ceiling. The distancing of the sound from the audience corresponds to the distancing of a person from past events.
+
+5.4. 4 vacillation 1_2_3In three parts differing sounds of the earthquake’s aftershock are presented. Besides source signal seperation, different playback speeds were used.4 vacillation closes the parenthesis opened with “1 tremor” at the beginning of “underground sounds”.	It reopens the possibility of an unpredictable event, building and releasing musical and psychological tension in a quick, dense succession without any preparation.
+
+---
+
+Using Audification to Distinguish Foreshocks and Aftershocks
+David Eberhard 4. August 2006
+ref:2006_Eberhard_Audification_Bcs.pdf
+
+2.3. Why Listen?The question is actually misleading, we should more ask why not listen? Although the ear has been used successfully in the sci-entific past, the eye is today the dominant sense in science as probably in the most other matters as well (Dombois, 2002b). This inci-dent is suprising and not: suprising as we all know that the world we experience, whether it is with the eyes, ears or any other sense, is only an image of the real world, which could have nothing to do with the real world. One of the main reasons for the dominance of the eye could be the properties of the eye, which differ from the properties of the ear. Another reason could be that visual infor- mation is much easier to store and to repro- duce, and it has been done earlier in the past, if we think of written documents and draw- ings. Reproduction of audio information on the other hand is much more complicated and has only in the recent past become techni-cally feasible.
+
+So what are the properties of the eyes, what makes them so different from the ears, or what are the strengs of eye and what are the strengs of the ear?
+
+Properties of the eye:
+
+• Frequency range from 385 THz to 790 T Hz, which is about one octave.
+
+• The eye is a directional and focused sense and is as such very strong in seeing the world in a static way.
+
+• The eye is on the other hand not very good at experiencing the time, which can be a benefit if thinking about tele- vision, or a disadvantages.
+
+• The eye is a very unaffecting sense, we can only ”scratch“the surface of an ob- ject, but never look inside an object.
+
+Properties of the ear:
+
+• Frequency range from 16 Hz to 20 kHz, which is about 10 octaves.
+
+• The ear is an unidirectional and unfo- cused sense, it does not even differ be- tween sound from inside the body or out- side the body.
+
+• Unlike the eye, the ear is very strong at sensing time, this ability goes even so far, that the ear ist incapable of recog-nising a sound without time. There is nothing like a freeze image in the audio domain.
+
+• Under certain conditions the ear can hear inside an object.
+
+• The ear is strong at filtering certain sig- nals out of the surrounding noise, which is also called the ”cocktailparty effect“.
+
+2.4. What Can We Hear?We do not really know what we will hear, that’s the very reason why we do this study. However, there has been some earlier studies which have shown some potential (Dombois, 2001). Several factors have been heard1 in these studies:
+
+Distance: The sound change with greater distance, which easily can be explaned by the dispersion of the waves and of course other factors. It could even be heard if a wave traveled through the core
+
+Region: The earthquakes of a certain region showed some similarities in sound.
+
+Depth: Depth does not seems to have a strong influence on sound, what proba- bly can be explained by relatively small depth variation. An interesting case are for example deep earthquakes (up to 670 km) which exhibit a very special sound (Dombois, 2002a).
+
+Site Response: As for the earthquake re- gions, the region on which the seismome-ter stands has an influence on the sound. This fact has to be taken in account when listening to earthquakes.
+
+Noise: The background noise of seismic sta- tions is another characteristic which can be heard. Analysing the audification of the background could be another inter- esting subject of future studies, as an audifiction of the background noise can help to get a better understanding about the underground and of artefacts and noise sources.
+
+Tectonics: Not really a surprise, the focal mechanisms has an influence on the sound. The sound of a mid ocean rift for example is described as a plop like sound, where as the subductions zones sounded more like some hard cracks and clicks (Dombois, 2001).
+
+Free Oscillations: The largest earthquakes can bring the entire earth to resonate in her eigenfrequencies. The eigenfre- quency are a property depended on the structure of an object, in this case of the earth. These Free Oscillations can be easily heard (Dombois, 2002a).
+
+4.1. Audification
+
+Besides the parameter mapping(2), which will not be topic of this study, there are several ways to convert a seismic waveform into a au- dio waveform. Each of them has advantages and disadvantages. The main problem in the audifiction of an earthquake is the difference in the property of a seismic wave compared with a sound wave (see table 4). Especially the frequency spectrum differs a lot, the spec- trum of a seismic wave ranges from 0.3 mHz to 20 Hz, whereas the hearable sound wave has a spectrum of 16 Hz to 20 kHz. Written in more demonstrative way: 17 octave of the seismic against 10 octave of the sound wave (Dombois, 2001).
+
+===========================================
+                	seismic wave		acoustic wave
+
+frequency 	0.3 mHz-20 Hz		16 Hz-20000 Hz
+octaves		17				10
+word size		24-32bit			16-24bit
+dimensions	3				1
+
+Properties of a seismic wave and the properties of an acoustic wave.
+===========================================
+
+(2) In this method the actual data or waveform is mapped to parameter of soundgenerator as a syn- thesizer, the result depends strongly on the cho- sen soundgenerator. This kind of method is often referred to as sonification.
+
+The simplest way to get a sound out of a seismogram would be a linear time compres-sion, which is a simple speed-up of the signal, very similar to a speed-up of a vinyl record. The advantages of such a simple procedure are first of all the simplicity of the method itself and the fact that with this method the inter-frequency spacing and the signal’s char- acteristics are conserved. The disadvantages of this procedure is the loss of information due the non-audible part of the 17 octaves, which cannot be fit into the frequency spec- trum of an audible signal. The signal also get’s shorter, which is most of the a time an advantage, but not necessarily always.
+
+Another way to get an audible signal is to raise the frequency linearly, which is also called a pitchshifter. The advantages in this case would be the unchanged inter-frequency spacing and a controllable length of the sig- nal. However, such a method would ei- ther use a fourier transformation, a gran- ular stretch method or the doppler effect as soundprocessor sometimes does, and this could result in artefacts and alteration of the signal. The problem of information loss due to the frequency is also not solved.
+
+A more sophisticated method would be a non-linear time compression. With such a method, the 17 octaves of the seismic wave could be fitted into the frequency range of the sound wave, which is a clear advantage. How- ever, this method would be more complicated and the result would much more depend on the actual choice of the speed-up function. In this method the inter-frequency spacing and so the signal characteristics would not be conserved.
+
+Today most of the seismograms are recorded with word size of 24 bit or even 32 bit. Ironi- cally the A/D converter with such a word size are originated in professional audio record- ing. However many consumer audio players (e. g. CD-players) only have a word size of 16 bit. Although these things change and 24 bit audio player as DVD-players or many computer soundcards are these days not that uncommon, a word size reduction from 24 bit to 16 bit has to be considered. The loss of such a reduction would be the loss of accu- racy per sample and with that a degradation of the signal-to-noise ratio. How strong the effect of the word size reduction really is has to be surveyed in other studies.
+
+For this study we followed the suggestion of Florian Dombois and used the linear time compression method. For the speed-up fac- tors we use variable factors, which means the final sampling frequency is 44100 kHz result- ing in a speed-up factor of around 441 (Dom- bois, 2002a, 2001). The converter software can additionaly slow down the playback time of the waveforms if desired, we used this to double the playlength of earthquakes. We also applied a damping factor of 2100 in or- der to avoid distortion in the resulting audio waveforms3 . Out of compatibility reason, we applied a word size reduction from 24 bit to 16 bit, so we can use most of the available soundplayers.
+
+read C. Converter Manual at 2006_Eberhard_Audification_Bcs.pdf
+for HOWTO software..
+
+----
+
+SONIFYER A Concept, a Software, a Platform - 2008
+Florian Dombois*, Oliver Brodwolf*, Oliver Friedli*, Iris Rennert*, Thomas Koenig†
+ref: Sonifyer-Dombois2008.pdf
+
+SonifYer works with parameter mapping—currently it uses frequency modulation synthesis (FM synthesis). 
+(( http://en.wikipedia.org/wiki/Frequency_modulation_synthesis ))
+
+Different data sets can be imported and be handled on different levels (the formats that can be imported are so far: txt, eeg, and, from seismology, seed, saf, and gse; common audio formats such as aif, m4a, wav, mp3 can be used)
+
+http://www.sonifyer.org/
+-------
+
+'Automated retrieval and quality control of seismic waveform data in Python'
+Development of a seismic data download tool using the ObsPy Python seismological data processing framework
+Ludwig-Maximilians 2011
+ref: obspy_seismic_waveform.pdf
+
+3.3 ObsPyObsPy (http://obspy.org), a Python framework for processing seismological data, is a free6 and open- source project initiated by Moritz Beyreuther, Lion Krischer and Robert Barsch in 2008 at the Department of Earth and Environmental Sciences, Geophysics, LMU Munich. Its modular structure and platform indepen- dency is combined with a variety of elaborated tools. Time critical tasks are implemented via shared C libraries (Barsch, 2009, 58).
+Providing a software standard sufficient for a complete seismological preprocessing work-flow, ObsPy relieves seismologists from the necessity to use a multitude of different software for subsequent processing steps. Since ObsPy is written in Python, a powerful and complete programming language with many scientific libraries and possibilities is right at hand. Being free software, it also liberates the user from restrictive license policies of proprietary alternatives (Beyreuther et al., 2010).
+In fairly short time, useful and important applications have been developed on the basis of ObsPy, like H/V Toolbox7, a toolbox to calculate horizontal to vertical spectral ratios to use ambient seismic vibrations (Krischer, 2010), or ObsPyck8, a GUI application for daily seismological analysis like phase picking. Though not being a real-time data acquisition system, ObsPy should be highly useful to seismological data centers. Detailed tuto- rials and documentation is available on the project home page (Megies et al., 2011, 53-55).
+For the project of this thesis, most of the necessary underlying functionality had already been implemented into ObsPy. Some small additions and modifications have been committed by the author, who previously had no experience with ObsPy. This shows how quickly beginning programmers can get started with this well- documented development framework. Parallel to this thesis, the module obspy.taup has been written by the ObsPy development team, providing theoretical arrival time calculation, which is frequently used in ObsPy- Load.
+
+
+
+
+
+
+
+
+
+
