@@ -85,7 +85,7 @@ https://en.wikipedia.org/wiki/Vaporwave<br>
 
 ### Sound Synthesis Pioneers<br>
 
-Apex Twin, Zannis Xenakis, Terry Riley, Boards of Canada, Autechre, Eno, Kraftwerk, Richard Devine, Robert Fripp, Steve Reich, CAN, Tangerine Dream, Health, Sophie, Igloohost, Dick Hyman, Wendy Carlos, Severed Heads, Fuck Buttons, John Carpenter, Ennio Morricone, Disasterpeace, Oneohtrix Point Never (OPN), Ben Prunty, Legowelt, Max Mathews, Curtis Roads, Giorgio Maroder, Jean Michael Jarre, Michael Garrison, Clark, Suzanne Ciani, Skee Mask, A.G. Cook, Caterina Barbieri, Robin Fox, Tom Hall, Kosmische Wellen >><br>
+Apex Twin, Autechre, Ben Prunty, Boards of Canada, CAN, Caterina Barbieri, Clark, Curtis Roads, Dick Hyman, Disasterpeace, Eno, Ennio Morricone, Fuck Buttons, Giorgio Maroder, Health, Igloohost, Jean Michael Jarre, John Carpenter, Kosmische Wellen, Kraftwerk, Legowelt, Max Mathews, Michael Garrison, Oneohtrix Point Never (OPN), Richard Devine, Robert Fripp, Robin Fox, Severed Heads, Skee Mask, Sophie, Steve Reich, Suzanne Ciani, Tangerine Dream, Terry Riley, Tom Hall, Wendy Carlos, Zannis Xenakis >><br>
 
 ### Seismic Data<br>
 
