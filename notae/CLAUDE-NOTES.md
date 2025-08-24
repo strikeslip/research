@@ -79,6 +79,9 @@ Explore > Plan > Confirm > Code > Commit<br>
 claude sdk not need terminal<br>
 claude /slash commands (LEARN)<br>
 
+What makes Claude Code so damn good
+https://minusx.ai/blog/decoding-claude-code/
+
 OPUS Model for Planning<br>
 Sonnet Model for Code Execution<br>
 
@@ -196,4 +199,5 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
