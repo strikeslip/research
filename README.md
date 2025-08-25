@@ -89,6 +89,12 @@ Apex Twin, Autechre, Ben Prunty, Boards of Canada, CAN, Caterina Barbieri, Clark
 
 ### Seismic Data<br>
 
+USGS Earthquake Search Catalog<br>
+https://earthquake.usgs.gov/earthquakes/search/<br>
+
+Global Seismic Events M6.0+ and above starting Jan 1st 2000<br>
+https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2000-01-01%2000:00:00&endtime=2025-08-25%2023:59:59&minmagnitude=6&orderby=time<br>
+
 Global Seismographic Network | EarthScope Consortium<br>
 https://www.earthscope.org/gsn/<br>
 https://github.com/EarthScope<br>
