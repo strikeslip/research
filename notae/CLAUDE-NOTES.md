@@ -96,6 +96,9 @@ https://www.reddit.com/r/ClaudeAI/comments/1n28m2s/essential_resources_for_claud
 Analyze your Claude Code token usage and costs from local JSONL files — incredibly fast and informative!<br>
 https://github.com/ryoppippi/ccusage<br>
 
+What makes Claude Code so damn good (and how to recreate that magic in your agent)!?<br>
+https://minusx.ai/blog/decoding-claude-code/<br>
+
 Agentic Claude Code: 3 Codebase Folders for TOP 1% AI Coding <br>
 https://youtu.be/hGg3nWp7afg?si=ZLwZVShJKMlLD2r5<br>
 
@@ -202,6 +205,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
