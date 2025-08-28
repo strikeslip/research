@@ -90,6 +90,9 @@ Sonnet + ultrathink + plan mode<br>
 Claude models hosted on Amazon Bedrock (AWS) & Google Cloud Platform (GCP)<br>
 Palantir’s Artificial Intelligence Platform (AIP) integrate Claude AI models hosted with (AWS)<br>
 
+Essential resources for Claude Code <br>
+https://www.reddit.com/r/ClaudeAI/comments/1n28m2s/essential_resources_for_claude_code/<br>
+
 Analyze your Claude Code token usage and costs from local JSONL files — incredibly fast and informative!<br>
 https://github.com/ryoppippi/ccusage<br>
 
@@ -199,6 +202,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
