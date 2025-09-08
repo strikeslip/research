@@ -167,5 +167,8 @@ The Sounds of Seismic (SOS) project is a unique endeavor in seismic data sonific
 
 ### Conclusion
 As of September 2025, projects like The Volcano Listening Project, sonify, and SeismicSonify share SOS’s goal of sonifying geophysical data, but they differ in scope, real-time capability, and artistic intent. The Data Sonification Archive highlights a broader trend, and NASA’s work extends sonification to other domains, but SOS stands out for its real-time, AI-driven, browser-based approach and its fusion of ecological awareness with generative music. The field is active, with ongoing interest in AI and sound (as seen in X posts), but no project exactly replicates SOS’s unique blend of technology and vision. For the latest developments, checking platforms like GitHub or sonification.design could reveal emerging efforts.  
-   - **Sources**:,,,,,,,[](https://sonification.design/)[](https://volcanolisteningproject.org/)[](https://github.com/liamtoney/sonify)
+   - **Sources**:
+   - https://sonification.design/
+   - https://volcanolisteningproject.org/
+   - https://github.com/liamtoney/sonify
 
