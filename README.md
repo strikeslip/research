@@ -185,6 +185,9 @@ ChatGPT OpenAI<br>
 https://chatgpt.com/<br>
 https://github.com/OPENAI<br>
 
+Agentic Design Patterns - Antonio Gulli<br>
+https://docs.google.com/document/u/0/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE<br>
+
 GROK xAI<br>
 https://grok.com/<br>
 https://github.com/xai-org<br>
