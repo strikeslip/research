@@ -18,6 +18,9 @@ https://docs.anthropic.com/en/home<br>
 Getting started - Claude Code overview<br>
 https://docs.anthropic.com/en/docs/claude-code/overview<br>
 
+Set up Claude Code<br>
+https://docs.anthropic.com/en/docs/claude-code/setup<br>
+
 Claude Code: Best practices for agentic coding (learn hoot claude.md) <br>
 https://www.anthropic.com/engineering/claude-code-best-practices<br>
 
@@ -205,6 +208,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
