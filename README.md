@@ -171,6 +171,14 @@ https://blogs.nvidia.com/blog/earth-ai/<br>
 Automatic speech recognition predicts contemporaneous earthquake fault displacement<br>
 https://www.nature.com/articles/s41467-025-55994-9<br>
 
+### AI Art & Music<br>
+
+Artificial Intelligence Visual Art<br>
+https://en.wikipedia.org/wiki/Artificial_intelligence_visual_art<br>
+
+Music and Artificial Intelligence<br>
+https://en.wikipedia.org/wiki/Music_and_artificial_intelligence<br>
+
 ### GenAI Large Language Models<br>
 
 Claude Anthropic<br>
