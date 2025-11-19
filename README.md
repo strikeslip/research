@@ -239,6 +239,12 @@ Model Context Protocol<br>
 https://modelcontextprotocol.io<br>
 https://github.com/modelcontextprotocol<br>
 
+Context7 MCP<br>
+https://github.com/upstash/context7<br>
+
+NanoGPT<br>
+https://nano-gpt.com/<br>
+
 WARP (MCP)<br>
 https://www.warp.dev/<br>
 https://docs.warp.dev/<br>
