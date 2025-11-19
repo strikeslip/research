@@ -24,6 +24,15 @@ https://docs.anthropic.com/en/docs/claude-code/setup<br>
 Claude Code: Best practices for agentic coding (learn hoot claude.md) <br>
 https://www.anthropic.com/engineering/claude-code-best-practices<br>
 
+Model Context Protocol - Wikipedia <br>
+https://en.wikipedia.org/wiki/Model_Context_Protocol<br>
+
+Connect Claude Code to tools via MCP - Claude Code Docs<br>
+https://code.claude.com/docs/en/mcp<br>
+
+How to Install Claude Code on Ubuntu Linux: A Developer's Guide - LinuxShout<br>
+https://linux.how2shout.com/how-to-install-claude-code-ubuntu-linux/<br>
+
 Mastering Claude Code in 30 minutes - by Anthropic (YOUTUBE) (Boris Cherny)<br>
 https://www.youtube.com/live/6eBSHbLKuN0?si=4WsjxW0Ucl5x77q9<br><br>
 
@@ -98,6 +107,9 @@ https://www.reddit.com/r/ClaudeAI/comments/1n28m2s/essential_resources_for_claud
 
 Analyze your Claude Code token usage and costs from local JSONL files — incredibly fast and informative!<br>
 https://github.com/ryoppippi/ccusage<br>
+
+Claude Code is a Beast<br>
+https://www.reddit.com/r/ClaudeAI/comments/1oivjvm/claude_code_is_a_beast_tips_from_6_months_of<br>
 
 What makes Claude Code so damn good (and how to recreate that magic in your agent)!?<br>
 https://minusx.ai/blog/decoding-claude-code/<br>
@@ -208,6 +220,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
