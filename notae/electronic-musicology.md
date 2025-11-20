@@ -2,23 +2,21 @@
 
 This is a comprehensive, curated list spanning the entire history of electronic sound—from the academic avant-garde of the 1950s to the hyper-digital textures of the 2020s.
 
-I. The Architects: Academic & Modular Pioneers
+<b>I. The Architects: Academic & Modular Pioneers</b>
 
 These artists established the physics of electronic sound, moving from tape manipulation to the first voltage-controlled systems.
 
 <b>Iannis Xenakis</b>
 
-Style: Stochastic Music, Musique Concrète.
-Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).
-Theory: Applied probability theory (Game Theory, Set Theory) to musical composition. He treated sound as a mass of particles rather than traditional notes, using statistical distribution to determine pitch and density.
+Style: Stochastic Music, Musique Concrète.<br>
+Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).<br>
+Theory: Applied probability theory (Game Theory, Set Theory) to musical composition. He treated sound as a mass of particles rather than traditional notes, using statistical distribution to determine pitch and density.<br>
 
-Max Mathews
+<b>Max Mathews</b>
 
-    Style: Computer Music (The "Father" thereof).
-
-    Synthesis/Tech: Created the MUSIC series of programs (MUSIC I - V). He pioneered Digital Wavetable Synthesis.
-
-    Theory: Proved the "Sampling Theorem" musically—that any sound could be reconstructed numerically. His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.
+Style: Computer Music (The "Father" thereof).<br>
+Synthesis/Tech: Created the MUSIC series of programs (MUSIC I - V). He pioneered Digital Wavetable Synthesis.<br>
+Theory: Proved the "Sampling Theorem" musically—that any sound could be reconstructed numerically. His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.<br>
 
 Curtis Roads
 
