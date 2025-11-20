@@ -10,16 +10,18 @@ These artists established the physics of electronic sound, moving from tape mani
 
 <b>Iannis Xenakis</b>
 
-Style: Stochastic Music, Musique Concrète.
-Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).
-Theory: Applied probability theory (Game Theory, Set Theory) to musical composition. He treated sound as a mass of particles rather than traditional notes, using statistical distribution to determine pitch and density.
+Style: Stochastic Music, Musique Concrète.<br>
+Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).<br>
+Theory: Applied probability theory (Game Theory, Set Theory) to musical composition. <br>
+Xenakis treated sound as a mass of particles rather than traditional notes.<br>
 https://en.wikipedia.org/wiki/Iannis_Xenakis
 
-Max Mathews
+<b>Max Mathews</b>
 
-Style: Computer Music (The "Father" thereof).
-Synthesis/Tech: Created the MUSIC series of programs (MUSIC I - V). He pioneered Digital Wavetable Synthesis.
-Theory: Proved the "Sampling Theorem" musically—that any sound could be reconstructed numerically. His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.
+Style: Computer Music (The "Father" thereof).<br>
+Synthesis/Tech: Created the MUSIC series of programs (MUSIC I - V). He pioneered Digital Wavetable Synthesis.<br>
+Theory: Proved the "Sampling Theorem" musically—that any sound could be reconstructed numerically.<br>
+His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.<br>
 https://en.wikipedia.org/wiki/Max_Mathews
 
 Curtis Roads
