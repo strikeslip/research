@@ -1,12 +1,14 @@
-electronic-musicology.md (in development)
+(in development)
+
+<b>ELECTRONICA MUSICOLOGY</b>
 
 This is a comprehensive, curated list spanning the entire history of electronic sound—from the academic avant-garde of the 1950s to the hyper-digital textures of the 2020s.
 
-I. The Architects: Academic & Modular Pioneers
+<b>I. The Architects: Academic & Modular Pioneers</b>
 
 These artists established the physics of electronic sound, moving from tape manipulation to the first voltage-controlled systems.
 
-Iannis Xenakis
+<b>Iannis Xenakis</b>
 
 Style: Stochastic Music, Musique Concrète.
 Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).
