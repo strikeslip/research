@@ -38,17 +38,18 @@ Synthesis/Tech: Moog Modular mastery. Additive Synthesis pioneer layering monoph
 Theory: Klangfarbenmelodie (tone-color melody). Prioritized timbral realization of orchestral scores, using filter envelopes to mimic the physics of acoustic instruments (e.g., the "bowing" friction of a cello).<br>
 https://en.wikipedia.org/wiki/Wendy_Carlos
 
-Suzanne Ciani
+<b>Suzanne Ciani</b>
 
-Style: New Age, Buchla Experimentalism.
-Synthesis/Tech: Buchla 200 Series. Unlike the Moog (keyboard-based), Ciani used the Buchla’s touch plates and complex function generators for Quadraphonic spatial movement.
-Theory: The "wave" as a compositional motif. She treats the synthesizer as a living organism, often performing without a standard keyboard, focusing on control voltage (CV) to modulate pitch and timbre simultaneously.
+Style: New Age, Buchla Experimentalism.<br>
+Synthesis/Tech: Buchla 200 Series using touch plates and complex function generators for Quadraphonic spatial movement.<br>
+Theory: The "wave" as a compositional motif. She treats the synthesizer as a living organism, often performing without a standard keyboard, focusing on control voltage (CV) to modulate pitch and timbre simultaneously.<br>
+https://en.wikipedia.org/wiki/Suzanne_Ciani
 
-II. The Minimalists & Tape Manipulators
+<b>II. The Minimalists & Tape Manipulators</b>
 
 Composers who utilized limited materials and process-based composition to alter the perception of time.
 
-Steve Reich & Terry Riley
+<b>Steve Reich & Terry Riley</b>
 
 Style: Minimalism, Process Music.
 Synthesis/Tech: Tape Loops and Phasing. Reich’s It’s Gonna Rain used two identical tape loops drifting out of sync. Riley used the "Time Lag Accumulator" (tape delay).
