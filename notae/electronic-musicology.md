@@ -11,28 +11,28 @@ These artists established the physics of electronic sound, moving from tape mani
 Style: Stochastic Music, Musique Concrète.<br>
 Synthesis/Tech: Granular Synthesis (proto) and GENDY. He used the UPIC system (converting drawings into sound).<br>
 Theory: Applied probability theory (Game Theory, Set Theory) to musical composition. He treated sound as a mass of particles rather than traditional notes, using statistical distribution to determine pitch and density.<br>
+https://en.wikipedia.org/wiki/Iannis_Xenakis
 
 <b>Max Mathews</b>
 
 Style: Computer Music (The "Father" thereof).<br>
 Synthesis/Tech: Created the MUSIC series of programs (MUSIC I - V). He pioneered Digital Wavetable Synthesis.<br>
 Theory: Proved the "Sampling Theorem" musically—that any sound could be reconstructed numerically. His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.<br>
+https://en.wikipedia.org/wiki/Max_Mathews
 
-Curtis Roads
+<b>Curtis Roads</b>
 
-    Style: Microsound, Academic Composition.
+Style: Microsound, Academic Composition.<br>
+Synthesis/Tech: The definitive authority on Granular Synthesis. He manipulates sound at the "micro" time scale (1–100ms).<br>
+Theory: Pulsar Synthesis. Roads focuses on the particle nature of sound, composing sequences of grains to create evolving timbres that blur the line between rhythm and pitch.<br>
+https://en.wikipedia.org/wiki/Curtis_Roads
 
-    Synthesis/Tech: The definitive authority on Granular Synthesis. He manipulates sound at the "micro" time scale (1–100ms).
+<b>Wendy Carlos</b>
 
-    Theory: Pulsar Synthesis. Roads focuses on the particle nature of sound, composing sequences of grains to create evolving timbres that blur the line between rhythm and pitch.
-
-Wendy Carlos
-
-    Style: Switched-On Classical, Ambient.
-
-    Synthesis/Tech: Moog Modular mastery. She pioneered Additive Synthesis on subtractive gear by layering monophonic lines on tape to build chords.
-
-    Theory: Klangfarbenmelodie (tone-color melody). She prioritized timbral realization of orchestral scores, using filter envelopes to mimic the physics of acoustic instruments (e.g., the "bowing" friction of a cello).
+Style: Switched-On Classical, Ambient.<br>
+Synthesis/Tech: Moog Modular mastery. She pioneered Additive Synthesis on subtractive gear by layering monophonic lines on tape to build chords.<br>
+Theory: Klangfarbenmelodie (tone-color melody). She prioritized timbral realization of orchestral scores, using filter envelopes to mimic the physics of acoustic instruments (e.g., the "bowing" friction of a cello).<br>
+https://en.wikipedia.org/wiki/Wendy_Carlos
 
 Suzanne Ciani
 
