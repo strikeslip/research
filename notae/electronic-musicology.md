@@ -17,6 +17,8 @@ A breakdown of style, synthesis techniques, and compositional theory across the 
 ### 1. The Architects: Academic & Modular Pioneers
 *Establishing the physics of sound, moving from tape to voltage.*
 
+
+
 * **[Iannis Xenakis](https://en.wikipedia.org/wiki/Iannis_Xenakis)**
     * **Style:** Stochastic Music, [Musique Concrète](https://en.wikipedia.org/wiki/Musique_concr%C3%A8te).
     * **Technique:** Granular Synthesis (proto) & [UPIC](https://en.wikipedia.org/wiki/UPIC) system.
@@ -52,6 +54,8 @@ A breakdown of style, synthesis techniques, and compositional theory across the 
 
 ### 3. Kosmische, Krautrock & The Synth Pop Explosion
 *The integration of sequencers to create "Robot Pop."*
+
+
 
 * **[Kraftwerk](https://en.wikipedia.org/wiki/Kraftwerk)**
     * **Style:** Synth-pop, Proto-Techno.
@@ -104,6 +108,8 @@ A breakdown of style, synthesis techniques, and compositional theory across the 
 
 ### 6. The Modern Vanguard
 *High-definition digital sculpting and modular grids.*
+
+
 
 * **[Oneohtrix Point Never (OPN)](https://en.wikipedia.org/wiki/Oneohtrix_Point_Never)**
     * **Style:** Plunderphonics, Vaporwave.
@@ -210,9 +216,6 @@ console.log("Steve Reich process started...");
 
 Concept: FM Synthesis / Physical Modeling To get a "wet," elastic sound, we modulate the frequency of a Carrier oscillator using a Modulator oscillator. The modGain determines how "metallic" or "stretched" the material sounds.
 
-Shutterstock
-JavaScript
-
 const ctx2 = new (window.AudioContext || window.webkitAudioContext)();
 
 function triggerBubble() {
@@ -265,9 +268,6 @@ setTimeout(triggerBubble, 500);
 3. The "Brian Eno" Generative Logic
 
 Concept: Generative Probability / Ambient Systems Instead of writing a fixed melody, the composer writes a system of rules. We use Math.random() as a "Probability Gate" to decide IF a note plays, and what property that note has.
-
-Getty Images
-JavaScript
 
 function generativeLoop() {
     // 30% chance to play a note
