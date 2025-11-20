@@ -6,7 +6,7 @@
 ## Table of Contents
 1. [The Sonic Lineages: Artist Breakdown](#i-the-sonic-lineages-artist-breakdown)
 2. [The Listening Curriculum](#ii-the-listening-curriculum)
-3. [Engineering the Sound: Web Audio API Implementations](#iii-engineering-the-sound-javascript--web-audio-api)
+3. [Engineering the Sound: Web Audio API Implementations](#iii-engineering-the-sound-web-audio-api-implementations)
 
 ---
 
@@ -153,12 +153,17 @@ A curated playlist to isolate and listen to the specific theories described abov
 
 ---
 
-## III. Engineering the Sound: JavaScript & Web Audio API
+## III. Engineering the Sound: Web Audio API Implementations
 
 How to replicate these historical techniques using code. Copy and paste these snippets into your browser console (F12).
 
+---
+
 ### 1. The "Steve Reich" Phase Shifter
-*Technique: Running two oscillators at slightly different time intervals.*
+**Concept:** *Time Manipulation / Phase Shifting*
+The listener hears two identical patterns drift apart. One loop is fixed at 1.0 seconds, the other loop is slightly longer (1.01s).
+
+
 
 ```javascript
 // 1. Initialize the Studio
@@ -201,9 +206,12 @@ for (let i = 0; i < iterations; i++) {
 }
 console.log("Steve Reich process started...");
 
-2. The "SOPHIE" Bubble (FM Synthesis)
+2. The "SOPHIE" Bubble
 
-Technique: Modulating the frequency of one oscillator with another to create "wet" textures.
+Concept: FM Synthesis / Physical Modeling To get a "wet," elastic sound, we modulate the frequency of a Carrier oscillator using a Modulator oscillator. The modGain determines how "metallic" or "stretched" the material sounds.
+
+Shutterstock
+JavaScript
 
 const ctx2 = new (window.AudioContext || window.webkitAudioContext)();
 
@@ -256,7 +264,10 @@ setTimeout(triggerBubble, 500);
 
 3. The "Brian Eno" Generative Logic
 
-Technique: Using probability to determine when notes play.
+Concept: Generative Probability / Ambient Systems Instead of writing a fixed melody, the composer writes a system of rules. We use Math.random() as a "Probability Gate" to decide IF a note plays, and what property that note has.
+
+Getty Images
+JavaScript
 
 function generativeLoop() {
     // 30% chance to play a note
