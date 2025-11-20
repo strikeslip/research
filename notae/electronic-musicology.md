@@ -24,18 +24,18 @@ Theory: Proved the "Sampling Theorem" musically—that any sound could be recons
 His work on Bicycle Built for Two (Daisy Bell) proved computers could synthesize vocals.<br>
 https://en.wikipedia.org/wiki/Max_Mathews
 
-Curtis Roads
+<b>Curtis Roads</b>
 
-Style: Microsound, Academic Composition.
-Synthesis/Tech: The definitive authority on Granular Synthesis. He manipulates sound at the "micro" time scale (1–100ms).
-Theory: Pulsar Synthesis. Roads focuses on the particle nature of sound, composing sequences of grains to create evolving timbres that blur the line between rhythm and pitch.
+Style: Microsound, Academic Composition.<br>
+Synthesis/Tech: The definitive authority on Granular Synthesis. He manipulates sound at the "micro" time scale (1–100ms).<br>
+Theory: Pulsar Synthesis. Roads focuses on the particle nature of sound, composing sequences of grains to create evolving timbres that blur the line between rhythm and pitch.<br>
 https://en.wikipedia.org/wiki/Curtis_Roads
 
-Wendy Carlos
+<b>Wendy Carlos</b>
 
-Style: Switched-On Classical, Ambient.
-Synthesis/Tech: Moog Modular mastery. She pioneered Additive Synthesis on subtractive gear by layering monophonic lines on tape to build chords.
-Theory: Klangfarbenmelodie (tone-color melody). She prioritized timbral realization of orchestral scores, using filter envelopes to mimic the physics of acoustic instruments (e.g., the "bowing" friction of a cello).
+Style: Switched-On Classical, Ambient.<br>
+Synthesis/Tech: Moog Modular mastery. Additive Synthesis pioneer layering monophonic lines on tape to build chords.<br>
+Theory: Klangfarbenmelodie (tone-color melody). Prioritized timbral realization of orchestral scores, using filter envelopes to mimic the physics of acoustic instruments (e.g., the "bowing" friction of a cello).<br>
 https://en.wikipedia.org/wiki/Wendy_Carlos
 
 Suzanne Ciani
