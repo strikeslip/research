@@ -1,4 +1,4 @@
-electronic-musicology.md
+electronic-musicology.md (in development)
 
 This is a comprehensive, curated list spanning the entire history of electronic sound—from the academic avant-garde of the 1950s to the hyper-digital textures of the 2020s.
 
