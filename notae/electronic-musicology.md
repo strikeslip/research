@@ -1,3 +1,6 @@
+
+
+````markdown
 # Electronic Musicology: Theory, Synthesis, & Code
 **A Comprehensive Breakdown of Electronic Lineages, Compositional Theory, and JavaScript Implementation**
 
@@ -211,11 +214,16 @@ for (let i = 0; i < iterations; i++) {
     playTone(startTime + (i * 0.255), 1); 
 }
 console.log("Steve Reich process started...");
+````
 
-2. The "SOPHIE" Bubble
+-----
 
-Concept: FM Synthesis / Physical Modeling To get a "wet," elastic sound, we modulate the frequency of a Carrier oscillator using a Modulator oscillator. The modGain determines how "metallic" or "stretched" the material sounds.
+### 2\. The "SOPHIE" Bubble
 
+**Concept:** *FM Synthesis / Physical Modeling*
+To get a "wet," elastic sound, we modulate the frequency of a Carrier oscillator using a Modulator oscillator. The `modGain` determines how "metallic" or "stretched" the material sounds.
+
+```javascript
 const ctx2 = new (window.AudioContext || window.webkitAudioContext)();
 
 function triggerBubble() {
@@ -264,11 +272,18 @@ function triggerBubble() {
 triggerBubble();
 setTimeout(triggerBubble, 200);
 setTimeout(triggerBubble, 500);
+```
 
-3. The "Brian Eno" Generative Logic
+-----
 
-Concept: Generative Probability / Ambient Systems Instead of writing a fixed melody, the composer writes a system of rules. We use Math.random() as a "Probability Gate" to decide IF a note plays, and what property that note has.
+### 3\. The "Brian Eno" Generative Logic
 
+**Concept:** *Generative Probability / Ambient Systems*
+Instead of writing a fixed melody, the composer writes a system of rules. We use `Math.random()` as a "Probability Gate" to decide IF a note plays, and what property that note has.
+
+[Image of generative music system flow chart]
+
+```javascript
 function generativeLoop() {
     // 30% chance to play a note
     if (Math.random() > 0.7) {
@@ -280,3 +295,7 @@ function generativeLoop() {
     setTimeout(generativeLoop, Math.random() * 500); 
 }
 // generativeLoop(); // Uncomment to run
+```
+
+```
+```
