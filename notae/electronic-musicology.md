@@ -1,6 +1,6 @@
 <b>ELECTRONICA MUSICOLOGY</b><br><br>
 
-This is a comprehensive, curated list spanning the entire history of electronic sound—from the academic avant-garde of the 1950s to the hyper-digital textures of the 2020s.<br><br>
+A list spanning history of electronica sound from the avant-garde of the 1950s to the hyper-digital textures of the 2020s.<br><br>
 
 <b>I. The Architects: Academic & Modular Pioneers</b><br>
 These artists established the physics of electronic sound, moving from tape manipulation to the first voltage-controlled systems.<br><br>
@@ -38,22 +38,29 @@ https://en.wikipedia.org/wiki/Suzanne_Ciani<br><br>
 <b>II. The Minimalists & Tape Manipulators</b><br>
 Composers who utilized limited materials and process-based composition to alter the perception of time.<br><br>
 
-<b>Steve Reich & Terry Riley</b><br>
+<b>Steve Reich</b>
 Style: Minimalism, Process Music.<br>
-Synthesis/Tech: Tape Loops and Phasing. Reich’s *It’s Gonna Rain* used two identical tape loops drifting out of sync. Riley used the "Time Lag Accumulator" (tape delay).<br>
-Theory: Phase Shifting. The composition is the process itself; the listener observes the gradual geometric interaction of repeating patterns moving in and out of unison.<br>
+Synthesis/Tech: Tape Phasing. He pioneered the "Phase Shift" technique using two identical tape loops (most notably in It’s Gonna Rain and Come Out). By allowing one tape to play slightly faster than the other, he created a psychoacoustic rhythm that evolves slowly over time.<br>
+Theory: Composition as Process. Reich believed the underlying process of a piece should be audible to the listener. The music is not about the notes, but about the geometric interaction of patterns moving in and out of unison.<br>
 https://en.wikipedia.org/wiki/Steve_Reich<br><br>
 
+<b>Terry Riley</b>
+Style: Minimalism, Experimental Drone.<br>
+Synthesis/Tech: The Time Lag Accumulator. Riley created an early delay system using two tape recorders: the audio was recorded on the first machine and played back on the second machine located some distance away. This created long, regenerating loops that allowed him to solo over his own past performance.<br>
+Theory: Modular Repetition. In works like In C, he introduced aleatoric (chance) elements to minimalism, providing a series of musical "cells" that performers could repeat at will, creating a shifting, non-linear tapestry.<br>
+https://en.wikipedia.org/wiki/Terry_Riley<br><br>
 
-
-[Image of generative music system flow chart]
-<br>
-
-<b>Brian Eno & Robert Fripp</b><br>
-Style: Ambient, Frippertronics.<br>
-Synthesis/Tech: Generative Music and Tape Delay. "Frippertronics" involves two reel-to-reel recorders; the sound plays on one and records on the other, creating an infinite decay loop.<br>
-Theory: "Ignorable as it is interesting." Eno shifted composition from narrative structure to environmental tinting, using probability to let systems compose the music (e.g., Music for Airports).<br>
+<b>Brian Eno</b>
+Style: Ambient, Generative Music.<br>
+Synthesis/Tech: The Studio as Instrument. Eno utilized variable-speed tape loops of different lengths to create asynchronous musical systems. He is also a pioneer of generative software, using probability algorithms to create self-composing music.<br>
+Theory: Environmental Tinting. Eno coined the term "Ambient Music," defining it as sound that "must be as ignorable as it is interesting." He shifted the focus from narrative structure (beginning/middle/end) to creating a steady-state sonic environment.<br>
 https://en.wikipedia.org/wiki/Brian_Eno<br><br>
+
+<b>Robert Fripp</b>
+Style: Ambient Guitar, Soundscapes.<br>
+Synthesis/Tech: Frippertronics. A specific tape-looping method involving two reel-to-reel recorders. Sound recorded on the left machine travels to the right machine for playback, and is then fed back into the source. This creates an infinite sustain and gradual decay, allowing him to build massive, cathedral-like textures with a single guitar.<br>
+Theory: Discipline & Attention. Fripp views the delay system as a mirror for the performer's state of mind. The technique requires the musician to play slowly and listen to the "bloom" of the loop, removing the ego from the improvisation.<br>
+https://en.wikipedia.org/wiki/Robert_Fripp<br><br>
 
 <b>III. Kosmische, Krautrock & The Synth Pop Explosion</b><br>
 The integration of sequencers and drum machines to create "Robot Pop" and cosmic soundscapes.<br><br>
