@@ -254,6 +254,9 @@ https://github.com/SillyTavern/SillyTavern<br>
 Zed — AI Code Editor<br>
 https://zed.dev/<br>
 
+Kimi-K2-Thinking<br>
+https://huggingface.co/moonshotai/Kimi-K2-Thinking<br>
+
 WARP (MCP)<br>
 https://www.warp.dev/<br>
 https://docs.warp.dev/<br>
