@@ -248,6 +248,12 @@ https://github.com/upstash/context7<br>
 NanoGPT<br>
 https://nano-gpt.com/<br>
 
+SillyTavern APIs <br>
+https://github.com/SillyTavern/SillyTavern<br>
+
+Zed — AI Code Editor<br>
+https://zed.dev/<br>
+
 WARP (MCP)<br>
 https://www.warp.dev/<br>
 https://docs.warp.dev/<br>
