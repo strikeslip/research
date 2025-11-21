@@ -131,12 +131,6 @@ Synthesis/Tech: Prophet-5, ARP Quadra.<br>
 Theory: Minimalism for Tension. Carpenter uses simple, repetitive sawtooth basslines in 5/4 or simple 4/4 time. The lack of complexity creates a "stalking" feeling.<br>
 https://en.wikipedia.org/wiki/John_Carpenter<br><br>
 
-<b>Ennio Morricone</b><br>
-Style: Spaghetti Western, Giallo.<br>
-Synthesis/Tech: Fender Rhodes, weird distinct samples, blending orchestra with electric guitar and concrète sounds (whips, whistles).<br>
-Theory: Timbral Juxtaposition. While not a pure "electronic" artist, his fearless mixing of "low" sounds (harmonicas, Jew's harps) with "high" orchestration paved the way for modern sampling culture.<br>
-https://en.wikipedia.org/wiki/Ennio_Morricone<br><br>
-
 <b>Disasterpeace & Ben Prunty</b><br>
 Style: Chiptune, Neo-Score (It Follows, FTL).<br>
 Synthesis/Tech: FM Synthesis (Yamaha DX7 style) and Retro-emulation.<br>
@@ -209,3 +203,11 @@ Style: Chicago House, Lo-Fi Techno.<br>
 Synthesis/Tech: Amiga Trackers and a museum’s worth of vintage obscure synthesizers.<br>
 Theory: Smudging. Legowelt embraces the hiss, noise, and "cheap" sound of old digital gear to create a mysterious, hazy atmosphere that feels like a B-movie soundtrack.<br>
 https://en.wikipedia.org/wiki/Legowelt<br><br>
+
+<b>VIII. The Roots: Musique Concrète</b>
+
+<b>Pierre Schaeffer</b><br>
+Style: Musique Concrète, Avant-Garde.<br>
+Synthesis/Tech: The Turntable and Magnetic Tape. Schaeffer developed the Sillon Fermé (locked groove) technique to create infinite loops from vinyl records before tape loops became standard. He manipulated speed, direction, and attack transients of recorded sounds (trains, spinning tops, piano).<br>
+Theory: Acousmatic Sound. The practice of listening to a sound without seeing its cause. He defined the Sound Object (l'objet sonore) as a sonic entity to be studied for its timbral qualities, divorced from its source or musical context.<br>
+https://en.wikipedia.org/wiki/Pierre_Schaeffer<br><br>
