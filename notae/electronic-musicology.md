@@ -175,6 +175,13 @@ Synthesis/Tech: Oscilloscopes and Laser Projection.<br>
 Theory: Synesthesia. The sound is directly converted into voltage that drives lasers. You are literally "seeing" the sound waves.<br>
 https://en.wikipedia.org/wiki/Robin_Fox_(musician)<br><br>
 
+<b>Tom Hall</b>
+
+Style: Generative Glitch, Textural Drone.<br>
+Synthesis/Tech: A hybrid workflow blending Max/MSP (stochastic sequencing) with Eurorack (West Coast synthesis). He utilizes granular processing to treat audio as a fluid texture, creating rhythms via random number generators.<br>
+Theory: The "Gardener" Approach. Hall applies cybernetics to composition, tending to probability-based systems where digital artifacts (clipping, aliasing) are treated as aesthetic features rather than errors.<br>
+https://en.wikipedia.org/wiki/Tom_Hall_(electronic_musician)<br><br>
+
 <b>VII. Industrial, Noise & Lo-Fi</b><br>
 The darker, grittier side of the spectrum.<br><br>
 
