@@ -186,7 +186,7 @@ https://en.wikipedia.org/wiki/Tom_Hall_(electronic_musician)<br><br>
 <b>VII. Industrial, Noise & Lo-Fi</b><br>
 The darker, grittier side of the spectrum.<br><br>
 
-<b>Fuck Buttons & Health</b><br>
+<b>Fuck Buttons</b><br>
 Style: Noise Pop, Industrial.<br>
 Synthesis/Tech: Circuit-bent toys, distorted vocals, lo-fi pedals.<br>
 Theory: Wall of Sound. They use electronic textures not for precision, but for overwhelming volume and density, burying pop melodies under layers of white noise.<br>
