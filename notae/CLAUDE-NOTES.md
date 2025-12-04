@@ -2,15 +2,16 @@
 <b>CLAUDE-NOTES.md</b> <br><br>
 https://www.anthropic.com/
 
-https://claude.ai (Paid Plan $20 p/mth)<br>
+https://claude.ai <br>
 https://console.anthropic.com<br>
 https://status.anthropic.com/<br>
 
 PRO $20 p/mth MAX $100 p/mth (as of Aug 11th, 2025)<br>
 https://www.anthropic.com/pricing
 
-Claude Sonnet 4 for simpler coding tasks, prototyping, or learning and more efficiency.<br>
-Claude Opus 4.1 for complex, high-stakes, or large-scale coding projects.<br>
+as of Dec 4th 2025<br>
+Claude Sonnet 4.5 for coding tasks, prototyping, or learning and more efficiency.<br>
+Claude Opus 4.5 for complex, high-stakes, or large-scale coding projects.<br>
 
 Build with Claude<br>
 https://docs.anthropic.com/en/home<br>
@@ -220,6 +221,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
