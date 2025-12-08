@@ -6,8 +6,8 @@ https://claude.ai <br>
 https://console.anthropic.com<br>
 https://status.anthropic.com/<br>
 
-PRO $20 p/mth MAX $100 p/mth (as of Aug 11th, 2025)<br>
-https://www.anthropic.com/pricing
+Pricing - Claude Docs<br>
+https://platform.claude.com/docs/en/about-claude/pricing
 
 as of Dec 4th 2025<br>
 Claude Sonnet 4.5 for coding tasks, prototyping, or learning and more efficiency.<br>
@@ -221,6 +221,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
