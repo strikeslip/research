@@ -1,8 +1,6 @@
 
 Classic-Synths.md (Keyboard)
 
-Based on the handwritten notes in the image, here is the converted text with relevant Wikipedia references:
-
 ### Classic Synths (Keyboard)
 
 *   **Buchla**
