@@ -198,6 +198,22 @@ https://www.reddit.com/r/ClaudeAI/comments/1mle79b/chatgpt_5_claude_code_is_a_th
 
 Ultrathink is a special keyword in Claude Code that allocates the highest ‘thinking budget’ - 31,999 tokens - for complex reasoning. It’s one of several levels: ‘think’ (4k tokens) < ‘think hard’ (10k) < ‘think harder’ < ‘ultrathink’ (32k). Only works in Claude Code, not regular Claude chat.
 
+GitHub - anthropics/skills: Public repository for Agent Skills <br>
+https://github.com/anthropics/skills <br>
+
+Get inspired by what you can do with Claude <br>
+https://claude.com/resources/use-cases <br>
+
+Everyone should be using Claude Code more <br>
+https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code <br>
+
+Coding with AI Agents: A Non-Technical Guide <br>
+https://claude.ai/public/artifacts/05e4c7e9-ab23-4467-bef3-2c1e05023578 <br>
+
+Claude Code creator Boris Cherny shares his setup with 13 detailed steps,full details below  (Jan 3rd, 2025) <br>
+https://www.reddit.com/r/ClaudeAI/comments/1q2c0ne/claude_code_creator_boris_shares_his_setup_with/ <br>
+
+
 =========
 
 Many folks run Claude in multiple terminals simultaneously.<br>
@@ -221,6 +237,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
