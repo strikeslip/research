@@ -210,8 +210,9 @@ https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code <br>
 Coding with AI Agents: A Non-Technical Guide <br>
 https://claude.ai/public/artifacts/05e4c7e9-ab23-4467-bef3-2c1e05023578 <br>
 
-Claude Code creator Boris Cherny shares his setup with 13 detailed steps,full details below  (Jan 3rd, 2025) <br>
+Claude Code creator Boris Cherny shares his setup with 13 detailed steps,full details below  (Jan 3rd, 2026) <br>
 https://www.reddit.com/r/ClaudeAI/comments/1q2c0ne/claude_code_creator_boris_shares_his_setup_with/ <br>
+REF: https://x.com/bcherny/status/2007179832300581177 <br>
 
 
 =========
@@ -237,6 +238,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
