@@ -174,13 +174,12 @@ https://specfem.org/<br>
 SPECFEM · GitHub<br>
 https://github.com/SPECFEM<br>
 
-Wave Propagation Program (WPP) developed by Lawrence Livermore National Laboratory (LLNL) is an open-source software package.<br>
+Wave Propagation Program (WPP) developed by Lawrence Livermore National Laboratory (LLNL) <br>
+https://is.gd/sypr0k<br>
 
 John Louie Seismic Wave Visualisations<br>
+https://www.louie.pub/<br>
 Lecture 1: Seismic Principles 1 - https://youtu.be/-ZrIK3cfjFk?si=QKeRpctpsQPwRNHM<br>
-
-
-
 
 ### AI Seismology<br>
 
