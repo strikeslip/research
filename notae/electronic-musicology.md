@@ -1,6 +1,6 @@
 <b>ELECTRONICA MUSICOLOGY</b><br><br>
-
-A list spanning history of electronica sound from the avant-garde of the 1950s to the hyper-digital textures of the 2020s.<br><br>
+Evolving list spanning history of electronica sound from the avant-garde of the 1950s to the hyper-digital textures of the 2020s.<br><br>
+*Apex Twin, *Autechre, *Ben Prunty, *Boards of Canada, *CAN, *Caterina Barbieri, *Clark, *Curtis Roads, *DoseOne, *Dick Hyman, *Disasterpeace, *Eno, *Ennio Morricone, *Fuck Buttons, *Giorgio Maroder, *Health, *Igloohost, *Jean Michael Jarre, *John Carpenter, Kosmische Wellen(YouTube), *Kraftwerk, Legowelt, *Max Mathews, *Michael Garrison, *Oneohtrix Point Never (OPN), *Richard Devine, *Robert Fripp, *Robin Fox, *Severed Heads, *Skee Mask, *Sophie, *Steve Reich, *Suzanne Ciani, *Tangerine Dream, *Terry Riley, *Tom Hall, *Wendy Carlos, *Zannis Xenakis, ||+ *Vangelis *Stockhausen *Beethoven *Vilvadi *Itch-E and Scratch-E >> ++ Vangelis, Aphrodite's Child, Michael Nyman, Trent Reznor, Atticus Ross, Tron Ares, Nicolas Brittel, Ludwig Gorannson 🎵
 
 <b>I. The Architects: Academic & Modular Pioneers</b><br>
 These artists established the physics of electronic sound, moving from tape manipulation to the first voltage-controlled systems.<br><br>
