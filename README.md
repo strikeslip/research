@@ -166,6 +166,22 @@ https://soundcloud.com/seismicsounds/listening-to-the-earth-sing<br>
 Creating music and art with seismic waves!<br>
 https://www.iris.edu/hq/programs/epo/life_of_a_seismologist/seismic_impact/creating_music_and_art_with_seismic_waves<br>
 
+### Seismic Waveform Visualization<br>
+
+SPECFEM |open-source spectral-element method software codes for computational seismology.<br>
+https://specfem.org/<br>
+
+SPECFEM · GitHub<br>
+https://github.com/SPECFEM<br>
+
+Wave Propagation Program (WPP) developed by Lawrence Livermore National Laboratory (LLNL) is an open-source software package.<br>
+
+John Louie Seismic Wave Visualisations<br>
+Lecture 1: Seismic Principles 1 - https://youtu.be/-ZrIK3cfjFk?si=QKeRpctpsQPwRNHM<br>
+
+
+
+
 ### AI Seismology<br>
 
 When the Earth Talks, AI Listens<br>
