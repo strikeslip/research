@@ -277,6 +277,19 @@ https://www.warp.dev/<br>
 https://docs.warp.dev/<br>
 https://github.com/warpdotdev<br>
 
+OpenClaw<br>
+https://openclaw.ai/<br>
+https://docs.openclaw.ai/start/getting-started<br>
+
+VENICE<br>
+https://venice.ai/<br>
+
+MINIMAX<br>
+https://www.minimax.io/<br>
+
+Z.AI<br>
+https://chat.z.ai/ (GLM-4.7)<br>
+
 ♔♕♖♗♘♙<br>
 <a href="https://www.pi.infn.it/~carosi/chess/shannon.txt">Programming a Computer for Playing Chess</a></li><br>
 
