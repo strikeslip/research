@@ -1,6 +1,6 @@
 # Seismic Electronica Agent: SeisClaw Concept
 
-## A Research & Design Document for Building a Realtime, Agent-Driven Seismic Music System
+## A Research & Design Document for Building a Realtime, Agent-Driven Seismic Electronica
 
 **Author Context:** Extension of [Sounds of Seismic (SOS)](https://sos.allshookup.org/)  
 **Constraint:** Pure JavaScript only — NO ObsPy, NO seisplot.js dependencies  
