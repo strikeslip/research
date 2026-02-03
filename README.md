@@ -284,6 +284,7 @@ https://docs.openclaw.ai/start/getting-started<br>
 VENICE<br>
 https://venice.ai/<br>
 https://docs.venice.ai/models/overview<br>
+https://venice.ai/blog/how-to-code-with-the-venice-api-in-cursor-a-quick-guide<br>
 
 MINIMAX<br>
 https://www.minimax.io/<br>
