@@ -292,6 +292,17 @@ https://www.minimax.io/<br>
 Z.AI<br>
 https://chat.z.ai/ (GLM-4.7)<br>
 
+### Speech to Text<br>
+
+superwhisper - macOS/iOS/Windows 10+<br>
+https://superwhisper.com/<br>
+
+Wispr Flow - macOS<br>
+https://wisprflow.ai/<br>
+
+Speech-to-Text Linux<br>
+https://mcpmarket.com/server/speech-to-text-linux<br>
+
 ♔♕♖♗♘♙<br>
 <a href="https://www.pi.infn.it/~carosi/chess/shannon.txt">Programming a Computer for Playing Chess</a></li><br>
 
