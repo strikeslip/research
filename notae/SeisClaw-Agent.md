@@ -739,3 +739,38 @@ The path forward is to build a robust, secure foundation first, then carefully c
 
 *Document prepared for SHOOK / allshookup.org*  
 *"The Earth speaks; I translate."*
+
+--------------------------------------------------------
+# Context Prompt Feb 3, 2026 Claude Opus 4.5 : Agentic Seismic-Acoustic Synthesis System
+
+## Objective
+Deep research and design a "How-To" plan using **OpenClaw** with VPS hosting to create a real-time, agent-driven seismic electronica music system utilizing MiniSEED data.
+
+## Core Constraints
+*   **Language:** Pure JavaScript only.
+*   **Exclusions:** NO ObsPy, NO Seisplot.js.
+*   **Deliverable:** Pure research/design documentation (No code generation).
+*   **Platform:** OpenClaw on VPS (Docker-based).
+
+## Project Context
+This work is an extension and expansion of [sos.allshookup.org](https://sos.allshookup.org/).
+
+## Primary References
+*   **Inspiration:** [ShadowZone (Minified Script Parsing Example)](https://sos.allshookup.org/ShadowZone.html)
+*   **Framework:** [OpenClaw Getting Started](https://docs.openclaw.ai/start/getting-started)
+*   **Infrastructure:** [Hostinger VPS Docker/OpenClaw Setup](https://www.hostinger.com/vps/docker/openclaw)
+*   **Research Baseline:** [Google Search AI Results](https://share.google/aimode/8vtA9LNLwgmZqau5M)
+*   **Monetization Precedent:** [Fomolt](https://fomolt.com/)
+
+## Key Research Questions
+1.  **Technical Viability:** Is it possible to parse MiniSEED and generate real-time audio using only pure JavaScript on a VPS/Agent architecture?
+2.  **Alternative Options:** Are there more efficient methods within the "Pure JS" constraint?
+3.  **LLM Selection:** Which FOSS (Free and Open Source Software) Large Language Models offer the best value for this specific logic?
+4.  **Platform Differentiation:** How can this agent serve as a unique point of difference on [Moltbook](https://www.moltbook.com/)?
+5.  **Monetization Strategy:** 
+    *   How to launch as a **BASE $shitcoin**?
+    *   How to introduce intrinsic financial value to the Agent?
+
+## Design Requirements
+*   **Security:** Implementation of best security practices for VPS and Agentic environments.
+*   **Format:** Output must be provided in **.MD format only**.
