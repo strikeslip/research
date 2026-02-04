@@ -12,4 +12,4 @@ or (if i could shill my own project) you can just wait on the next version of gr
 ref: https://x.com/0xzak/status/2018871985254617295<br>
 
 - try Grok 4.1
-- howto implement/use venice.ai
+- howto implement/use [venice.ai](https://venice.ai/venice-api)
