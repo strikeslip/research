@@ -122,6 +122,7 @@
 - Kling: https://klingai.com/global/
 - Google Veo: https://deepmind.google/models/veo/
 - Higgsfield AI: https://higgsfield.ai/
+- Seedance 2.0: https://seedance2.ai
 
 ### Concept & Asset Creation
 - Midjourney: https://www.midjourney.com/home
