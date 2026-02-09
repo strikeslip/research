@@ -124,6 +124,7 @@
 - Higgsfield AI: https://higgsfield.ai/
 - Seedance 2.0: https://seedance2.ai
 - GROK Imagine: https://grok.com/imagine
+- CAPCUT: https://www.capcut.com
 
 ### Concept & Asset Creation
 - Midjourney: https://www.midjourney.com/home
