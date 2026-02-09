@@ -123,6 +123,7 @@
 - Google Veo: https://deepmind.google/models/veo/
 - Higgsfield AI: https://higgsfield.ai/
 - Seedance 2.0: https://seedance2.ai
+- GROK Imagine: https://grok.com/imagine
 
 ### Concept & Asset Creation
 - Midjourney: https://www.midjourney.com/home
