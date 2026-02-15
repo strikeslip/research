@@ -122,7 +122,7 @@
 - Kling: https://klingai.com/global/
 - Google Veo: https://deepmind.google/models/veo/
 - Higgsfield AI: https://higgsfield.ai/
-- Seedance 2.0: https://seedance2.ai + https://github.com/ZeroLu/awesome-seedance
+- Seedance 2.0: https://seedance2.ai + + https://seed.bytedance.com/en/ + https://github.com/ZeroLu/awesome-seedance
 - GROK Imagine: https://grok.com/imagine
 - CAPCUT: https://www.capcut.com
 
