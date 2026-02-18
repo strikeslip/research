@@ -122,7 +122,7 @@
 - Kling: https://klingai.com/global/
 - Google Veo: https://deepmind.google/models/veo/
 - Higgsfield AI: https://higgsfield.ai/
-- Seedance 2.0: https://seedance2.ai + https://seed.bytedance.com/en/ + https://github.com/ZeroLu/awesome-seedance + https://seedancehowto.com/ + https://cyberbara.com/ + https://seed.bytedance.com/en/seedance2_0 - [ByteDance](https://www.bytedance.com/) - [Jimeng](https://jimeng.jianying.com/) - [CapCut](https://www.capcut.com/)
+- Seedance 2.0: https://seedance2.ai + https://seed.bytedance.com/en/ + https://github.com/ZeroLu/awesome-seedance + https://seedancehowto.com/ + https://cyberbara.com/ + + https://seed.bytedance.com/en/research + https://seed.bytedance.com/en/seedance2_0 - [ByteDance](https://www.bytedance.com/) - [Jimeng](https://jimeng.jianying.com/) - [CapCut](https://www.capcut.com/)
 - GROK Imagine: https://grok.com/imagine
 - CAPCUT: https://www.capcut.com
 
