@@ -1,4 +1,4 @@
-# (LLM)LARGE LANGUAGE MODELS
+# LARGE LANGUAGE MODELS (LLM)
 
 ### Claude Anthropic 🇺🇸
 - Website: https://claude.ai/
