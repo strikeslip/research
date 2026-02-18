@@ -1,4 +1,4 @@
-# GenAI LARGE LANGUAGE MODELS
+# (LLM)LARGE LANGUAGE MODELS
 
 ### Claude Anthropic 🇺🇸
 - Website: https://claude.ai/
