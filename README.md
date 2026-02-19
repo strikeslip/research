@@ -281,6 +281,10 @@ OpenClaw<br>
 https://openclaw.ai/<br>
 https://docs.openclaw.ai/start/getting-started<br>
 
+OpenCode<br>
+https://opencode.ai/<br>
+https://github.com/anomalyco/opencode<br>
+
 VENICE<br>
 https://venice.ai/<br>
 https://docs.venice.ai/models/overview<br>
