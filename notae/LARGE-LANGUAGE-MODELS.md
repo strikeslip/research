@@ -7,7 +7,7 @@
 ### GROK xAI 🇺🇸
 - Website: https://grok.com/
 - GitHub: https://github.com/xai-org
-- https://console.x.ai
+- Console: https://console.x.ai
 
 ### VENICE 🇺🇸
 - Website: https://venice.ai/
