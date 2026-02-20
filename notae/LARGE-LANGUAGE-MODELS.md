@@ -24,6 +24,10 @@
 - Website: https://openclaw.ai/
 - Getting Started: https://docs.openclaw.ai/start/getting-started
 
+### OpenCode 🌎
+- https://opencode.ai/
+- https://github.com/anomalyco/opencode
+
 ### ChatGPT OpenAI 🇺🇸
 - Website: https://chatgpt.com/
 - GitHub: https://github.com/OPENAI
