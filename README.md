@@ -198,6 +198,7 @@ Music and Artificial Intelligence<br>
 https://en.wikipedia.org/wiki/Music_and_artificial_intelligence<br>
 
 ### GenAI Large Language Models<br>
+https://github.com/strikeslip/research/blob/main/notae/LARGE-LANGUAGE-MODELS.md <br>
 
 Claude Anthropic<br>
 https://claude.ai/<br>
