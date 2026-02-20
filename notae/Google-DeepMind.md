@@ -18,6 +18,7 @@
   - [aistudio.google.com/apps/bundled/lyria_camera](https://aistudio.google.com/apps/bundled/lyria_camera)
   - [aistudio.google.com/apps/bundled/promptdj-midi](https://aistudio.google.com/apps/bundled/promptdj-midi) (TESTED)
   - [aistudio.google.com/apps/drive/12J3ULED6JndUFmY-J4EIhNh_m_5wJqJV](https://aistudio.google.com/apps/drive/12J3ULED6JndUFmY-J4EIhNh_m_5wJqJV) (SEISMIC-SYNTH)
+  - https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/
 
 ## MusicFX DJ
 - [labs.google/fx/tools/music-fx-dj](https://labs.google/fx/tools/music-fx-dj)
