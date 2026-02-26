@@ -9,11 +9,6 @@
 - GitHub: https://github.com/xai-org
 - Console: https://console.x.ai
 
-### VENICE 🇺🇸
-- Website: https://venice.ai/
-- Models: https://docs.venice.ai/models/overview
-- Cursor Guide: https://venice.ai/blog/how-to-code-with-the-venice-api-in-cursor-a-quick-guide
-
 ### AIStudio Gemini 🇺🇸
 - Platform: https://aistudio.google.com
 - GitHub: https://github.com/google-gemini
@@ -21,17 +16,13 @@
 ### GOOGLE GEMINI 🇺🇸
 - App: https://gemini.google.com/app
 
-### OpenClaw 🌎
-- Website: https://openclaw.ai/
-- Getting Started: https://docs.openclaw.ai/start/getting-started
-
-### OpenCode 🌎
-- https://opencode.ai/
-- https://github.com/anomalyco/opencode
-
 ### ChatGPT OpenAI 🇺🇸
 - Website: https://chatgpt.com/
 - GitHub: https://github.com/OPENAI
+
+### perplexity 🇺🇸
+- Website: https://www.perplexity.ai/
+- GitHub: https://github.com/perplexityai
 
 ### DeepSeek 🇨🇳
 - Website: https://deep-seek.chat/
@@ -43,9 +34,11 @@
 
 ### Z.AI 🇨🇳
 - Website: https://chat.z.ai/ (GLM-4.7)
+- GitHub: https://github.com/zai-org
 
 ### Kimi-K2-Thinking 🇨🇳
 - Website: https://www.kimi.com/en
+- GitHub: https://github.com/MoonshotAI/Kimi-K2
 - Hugging Face: https://huggingface.co/moonshotai/Kimi-K2-Thinking
 
 ### NanoGPT 🇨🇳
@@ -53,10 +46,29 @@
 
 ### MINIMAX 🇨🇳
 - Website: https://www.minimax.io/
+- GitHub: https://github.com/minimax-ai
+
+### OpenClaw 🌎
+- Website: https://openclaw.ai/
+- Getting Started: https://docs.openclaw.ai/start/getting-started
+
+### OpenCode 🌎
+- Website: https://opencode.ai/
+- GitHub: https://github.com/anomalyco/opencode
+
+### VENICE 🌎
+- Website: https://venice.ai/
+- Models: https://docs.venice.ai/models/overview
+- Cursor Guide: https://venice.ai/blog/how-to-code-with-the-venice-api-in-cursor-a-quick-guide
+- GitHub: https://github.com/veniceai
 
 ### OpenRouter - Multi Models 🌎
 - Website: https://openrouter.ai/
 - GitHub: https://github.com/OpenRouterTeam
+
+### LM Studio - Run AI models, locally and privately 🌎
+- Website: https://lmstudio.ai/
+- GitHub: https://github.com/lmstudio-ai
 
 ### RooCode - Multi Models 🌎
 - Website: https://roocode.com/
@@ -94,6 +106,7 @@
 - **Cursor**: https://cursor.com
   - GitHub: https://github.com/cursor
 - **Zed — AI Code Editor**: https://zed.dev/
+- **BBEdit**: https://www.barebones.com/products/bbedit/
 
 ---
 
