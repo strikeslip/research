@@ -98,6 +98,9 @@
 - Docs: https://docs.warp.dev/
 - GitHub: https://github.com/warpdotdev
 
+- ### LLM Rankings | OpenRouter 🌎
+- https://openrouter.ai/rankings
+
 ---
 
 # CODE EDITORS
