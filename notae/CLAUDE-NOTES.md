@@ -34,6 +34,9 @@ https://en.wikipedia.org/wiki/Model_Context_Protocol<br>
 Connect Claude Code to tools via MCP - Claude Code Docs<br>
 https://code.claude.com/docs/en/mcp<br>
 
+The Making Of Dario Amodei<br>
+https://www.bigtechnology.com/p/the-making-of-dario-amodei<br>
+
 How to Install Claude Code on Ubuntu Linux: A Developer's Guide - LinuxShout<br>
 https://linux.how2shout.com/how-to-install-claude-code-ubuntu-linux/<br>
 
@@ -241,6 +244,7 @@ https://en.wikipedia.org/wiki/Pulse-code_modulation<br>
 
 A Symbolic Analysis of Relay and Switching Circuits - Wikipedia (Claude Shannon Masters Thesis)<br>
 https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits<br>
+
 
 
 
