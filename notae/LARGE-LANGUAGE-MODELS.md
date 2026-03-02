@@ -65,6 +65,7 @@
 ### OpenRouter - Multi Models 🌎
 - Website: https://openrouter.ai/
 - GitHub: https://github.com/OpenRouterTeam
+- LLM Rankings: https://openrouter.ai/rankings
 
 ### LM Studio - Run AI models, locally and privately 🌎
 - Website: https://lmstudio.ai/
@@ -98,8 +99,6 @@
 - Docs: https://docs.warp.dev/
 - GitHub: https://github.com/warpdotdev
 
-### LLM Rankings | OpenRouter 🌎
-- https://openrouter.ai/rankings
 
 ---
 
