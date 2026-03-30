@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude.ai Browser Cheat Sheet</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+  :root {
+    --bg:      #f4f2ee;
+    --bg2:     #ffffff;
+    --bg3:     #ede9e3;
+    --border:  #d8d3cb;
+    --border2: #c8c2b8;
+    --text:    #1a1a1a;
+    --text2:   #4a4a4a;
+    --text3:   #888077;
+    --cmd:     #0d0d0d;
+    --kbd-bg:  #e8e4de;
+    --kbd-bdr: #b8b2a8;
+    --warn:    #b91c1c;
+    --green:   #15622a;
+    --amber:   #7c5a00;
+    --dim:     #888077;
+    --pro:     #1a4f8a;
+    --max:     #5b1a8a;
+    --free:    #1a622a;
+    --new-bg:  #1a1a1a;
+    --new-txt: #f4f2ee;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(circle, #b8b2a8 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.35;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page {
+    position: relative;
+    z-index: 1;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 24px 20px 40px;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid var(--text);
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .header-left { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+
+  .logo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--text3);
+    font-weight: 400;
+  }
+
+  .updated {
+    font-size: 10px;
+    color: var(--text3);
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  /* Plan legend */
+  .plan-legend {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+    padding: 8px 12px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    align-items: center;
+  }
+
+  .plan-legend .lbl {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: var(--text3);
+    margin-right: 4px;
+  }
+
+  .plan-tag {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 2px;
+    border: 1px solid;
+    white-space: nowrap;
+  }
+
+  .tag-free  { color: var(--free); border-color: rgba(21,98,42,0.35); background: rgba(21,98,42,0.06); }
+  .tag-pro   { color: var(--pro);  border-color: rgba(26,79,138,0.35); background: rgba(26,79,138,0.06); }
+  .tag-max   { color: var(--max);  border-color: rgba(91,26,138,0.35); background: rgba(91,26,138,0.06); }
+  .tag-team  { color: #8a4e1a; border-color: rgba(138,78,26,0.35); background: rgba(138,78,26,0.06); }
+  .tag-ent   { color: #1a1a1a; border-color: rgba(0,0,0,0.3); background: rgba(0,0,0,0.05); }
+  .tag-new   { color: var(--new-txt); background: var(--new-bg); border-color: var(--new-bg); }
+
+  .plan-legend .sep { color: var(--text3); font-size: 11px; }
+
+  /* Grid */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+
+  @media (max-width: 1200px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+  @media (max-width: 900px)  { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 640px)  { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 400px)  { .grid { grid-template-columns: 1fr; } }
+
+  /* Card */
+  .card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-header {
+    padding: 8px 11px 7px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg3);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .card-icon { font-size: 12px; line-height: 1; }
+
+  .card-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text);
+  }
+
+  .card-body { padding: 9px 11px; flex: 1; }
+
+  .sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text3);
+    margin: 9px 0 4px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--border);
+  }
+  .sub:first-child { margin-top: 0; }
+
+  .row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 2.5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  .row:last-child { border-bottom: none; }
+
+  .row-label { color: var(--text2); font-size: 11px; flex: 1; min-width: 0; line-height: 1.4; }
+
+  .row-label code {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--text);
+    background: var(--bg3);
+    padding: 0 3px;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+  }
+
+  .row-right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+
+  .val {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--cmd);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .val.green  { color: var(--green); }
+  .val.amber  { color: var(--amber); }
+  .val.dim    { color: var(--dim); font-weight: 400; }
+  .val.warn   { color: var(--warn); }
+  .val.pro    { color: var(--pro); }
+  .val.max    { color: var(--max); }
+
+  /* inline plan tag — smaller, no box */
+  .pt {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 0 4px;
+    border-radius: 2px;
+    border: 1px solid;
+    flex-shrink: 0;
+    vertical-align: middle;
+  }
+
+  .pt.free  { color: var(--free); border-color: rgba(21,98,42,0.35); background: rgba(21,98,42,0.06); }
+  .pt.pro   { color: var(--pro);  border-color: rgba(26,79,138,0.35); background: rgba(26,79,138,0.06); }
+  .pt.max   { color: var(--max);  border-color: rgba(91,26,138,0.35); background: rgba(91,26,138,0.06); }
+  .pt.team  { color: #8a4e1a; border-color: rgba(138,78,26,0.35); background: rgba(138,78,26,0.06); }
+  .pt.ent   { color: #1a1a1a; border-color: rgba(0,0,0,0.3); background: rgba(0,0,0,0.05); }
+  .pt.new   { color: var(--new-txt); background: var(--new-bg); border-color: var(--new-bg); }
+
+  /* Env/path rows */
+  .env-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+    padding: 2.5px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+  .env-row:last-child { border-bottom: none; }
+  .env-key {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--text);
+    flex: 1;
+  }
+  .env-val { font-size: 10px; color: var(--text3); flex-shrink: 0; }
+
+  /* Footer */
+  .footer {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 2px solid var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-line {
+    font-size: 10px;
+    color: var(--text2);
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 8px;
+    align-items: baseline;
+  }
+
+  .footer-line strong {
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-right: 4px;
+  }
+
+  .footer-line code       { color: var(--text); font-weight: 500; }
+  .footer-line code.warn  { color: var(--warn); }
+  .sep { color: var(--text3); }
+
+  .note {
+    font-size: 10px;
+    color: var(--text3);
+    font-style: italic;
+    padding: 2px 0;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <div class="logo">Claude.ai Browser Cheat Sheet</div>
+      <div class="subtitle">claude.ai web interface only — no CLI, no terminal</div>
+    </div>
+    <div class="updated">March 2026</div>
+  </div>
+
+  <!-- Plan Legend -->
+  <div class="plan-legend">
+    <span class="lbl">Plan Key</span>
+    <span class="plan-tag tag-free">FREE</span><span class="sep">·</span>
+    <span class="plan-tag tag-pro">PRO $20/mo</span><span class="sep">·</span>
+    <span class="plan-tag tag-max">MAX $100–200/mo</span><span class="sep">·</span>
+    <span class="plan-tag tag-team">TEAM $30/seat</span><span class="sep">·</span>
+    <span class="plan-tag tag-ent">ENT custom</span><span class="sep">·</span>
+    <span class="plan-tag tag-new">NEW</span>
+    <span class="sep" style="margin-left:8px">—</span>
+    <span style="font-size:10px;color:var(--text3)">Tags show minimum plan required. Features without a tag are available on all plans.</span>
+  </div>
+
+  <!-- Grid -->
+  <div class="grid">
+
+    <!-- Models -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🤖</div><div class="card-title">Models Available</div></div>
+      <div class="card-body">
+        <div class="sub">Available in Browser</div>
+        <div class="row"><span class="row-label">Claude Sonnet 4.6 <span class="pt free">FREE</span></span><div class="row-right"><span class="val">Default model</span></div></div>
+        <div class="row"><span class="row-label">Claude Haiku 4.5 <span class="pt free">FREE</span></span><div class="row-right"><span class="val dim">Fast / lightweight</span></div></div>
+        <div class="row"><span class="row-label">Claude Opus 4.6 <span class="pt pro">PRO</span></span><div class="row-right"><span class="val">Most capable</span></div></div>
+        <div class="sub">Context Windows</div>
+        <div class="row"><span class="row-label">Sonnet 4.6</span><div class="row-right"><span class="val">200K tokens</span></div></div>
+        <div class="row"><span class="row-label">Opus 4.6</span><div class="row-right"><span class="val">1M tokens (beta) <span class="pt max">MAX</span></span></div></div>
+        <div class="row"><span class="row-label">Haiku 4.5</span><div class="row-right"><span class="val">200K tokens</span></div></div>
+        <div class="sub">Thinking Modes</div>
+        <div class="row"><span class="row-label">Standard response</span><div class="row-right"><span class="val">All plans</span></div></div>
+        <div class="row"><span class="row-label">Extended Thinking <span class="pt pro">PRO</span></span><div class="row-right"><span class="val">Deep reasoning</span></div></div>
+        <div class="row"><span class="row-label">Adaptive Thinking</span><div class="row-right"><span class="val dim">Auto-decides depth</span></div></div>
+        <div class="sub">Model Switching</div>
+        <div class="row"><span class="row-label">Switch model mid-chat</span><div class="row-right"><span class="val">Model picker menu</span></div></div>
+        <div class="row"><span class="row-label">Default model setting</span><div class="row-right"><span class="val">Settings → Model</span></div></div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">📂</div><div class="card-title">Projects</div></div>
+      <div class="card-body">
+        <div class="sub">What Projects Do</div>
+        <div class="row"><span class="row-label">Persistent context workspace</span><div class="row-right"><span class="pt free">FREE</span></div></div>
+        <div class="row"><span class="row-label">Context survives across chats</span></div>
+        <div class="row"><span class="row-label">Eliminates cold-start re-explaining</span></div>
+        <div class="sub">Project Instructions</div>
+        <div class="row"><span class="row-label">Custom system prompt per project</span></div>
+        <div class="row"><span class="row-label">Set tone, persona, format rules</span></div>
+        <div class="row"><span class="row-label">Domain expertise context</span></div>
+        <div class="sub">Knowledge Base</div>
+        <div class="row"><span class="row-label">Upload docs to project</span><div class="row-right"><span class="val dim">up to 200K tokens</span></div></div>
+        <div class="row"><span class="row-label">All chats in project can access files</span></div>
+        <div class="row"><span class="row-label">PDFs, code, transcripts, style guides</span></div>
+        <div class="row"><span class="row-label">500K context</span><div class="row-right"><span class="pt ent">ENT</span></div></div>
+        <div class="sub">Collaboration</div>
+        <div class="row"><span class="row-label">Share project with team members</span><div class="row-right"><span class="pt team">TEAM</span></div></div>
+        <div class="row"><span class="row-label">Share individual conversations</span></div>
+        <div class="row"><span class="row-label">Share Artifact via public link</span></div>
+        <div class="sub">Organisation</div>
+        <div class="row"><span class="row-label">Rename / delete projects</span></div>
+        <div class="row"><span class="row-label">Star / pin conversations</span></div>
+        <div class="row"><span class="row-label">Search past conversations</span></div>
+      </div>
+    </div>
+
+    <!-- Memory -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🧠</div><div class="card-title">Memory</div></div>
+      <div class="card-body">
+        <div class="sub">Auto Memory</div>
+        <div class="row"><span class="row-label">Available to all users <span class="pt new">NEW</span></span><div class="row-right"><span class="pt free">FREE</span></div></div>
+        <div class="row"><span class="row-label">Claude extracts key info from chats</span></div>
+        <div class="row"><span class="row-label">Remembers name, style, preferences</span></div>
+        <div class="row"><span class="row-label">Remembers ongoing projects &amp; context</span></div>
+        <div class="row"><span class="row-label">Updates in background (not real-time)</span></div>
+        <div class="sub">Enable / Manage</div>
+        <div class="row"><span class="row-label">Enable</span><div class="row-right"><span class="val dim">Settings → Capabilities</span></div></div>
+        <div class="row"><span class="row-label">View all stored memories</span></div>
+        <div class="row"><span class="row-label">Edit individual memory entries</span></div>
+        <div class="row"><span class="row-label">Delete specific memories</span></div>
+        <div class="row"><span class="row-label">Wipe all memories</span></div>
+        <div class="sub">Memory vs Projects</div>
+        <div class="row"><span class="row-label">Memory = auto-captured preferences</span></div>
+        <div class="row"><span class="row-label">Projects = manually uploaded context</span></div>
+        <div class="row"><span class="row-label">Best results: use both together</span></div>
+        <div class="sub">Privacy Notes</div>
+        <div class="row"><span class="row-label">Disabled in Incognito mode</span></div>
+        <div class="row"><span class="row-label">Deleting chats removes derived info</span><div class="row-right"><span class="val dim">(nightly)</span></div></div>
+        <div class="row"><span class="row-label">Opt out of training data use</span><div class="row-right"><span class="pt pro">PRO</span></div></div>
+      </div>
+    </div>
+
+    <!-- Artifacts -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">⚡</div><div class="card-title">Artifacts</div></div>
+      <div class="card-body">
+        <div class="sub">What Artifacts Are</div>
+        <div class="row"><span class="row-label">Live side panel beside chat</span><div class="row-right"><span class="pt free">FREE</span></div></div>
+        <div class="row"><span class="row-label">Rendered output — not just text</span></div>
+        <div class="row"><span class="sub" style="border:none;margin:0;padding:0;font-size:9px;color:var(--text3);font-style:italic">Enable: Settings → Capabilities → Artifacts</span></div>
+        <div class="sub">Artifact Types</div>
+        <div class="row"><span class="row-label">React / JSX components (interactive)</span></div>
+        <div class="row"><span class="row-label">HTML pages &amp; widgets</span></div>
+        <div class="row"><span class="row-label">SVG graphics / diagrams</span></div>
+        <div class="row"><span class="row-label">Mermaid diagrams</span></div>
+        <div class="row"><span class="row-label">Markdown documents</span></div>
+        <div class="row"><span class="row-label">Code (any language)</span></div>
+        <div class="row"><span class="row-label">Word / Excel / PowerPoint / PDF files</span></div>
+        <div class="sub">Working with Artifacts</div>
+        <div class="row"><span class="row-label">Edit inline: "make that button blue"</span></div>
+        <div class="row"><span class="row-label">Iterate without leaving chat</span></div>
+        <div class="row"><span class="row-label">Copy / download artifact content</span></div>
+        <div class="row"><span class="row-label">Share via public link</span></div>
+        <div class="row"><span class="row-label">Persistent storage across sessions <span class="pt new">NEW</span></span></div>
+        <div class="row"><span class="row-label">Direct Anthropic API calls from artifact <span class="pt new">NEW</span></span></div>
+        <div class="sub">Visualizations</div>
+        <div class="row"><span class="row-label">Charts, graphs, dashboards</span></div>
+        <div class="row"><span class="row-label">Interactive data widgets</span></div>
+        <div class="row"><span class="row-label">Enable: Artifacts + Inline Visualizations</span></div>
+      </div>
+    </div>
+
+    <!-- Web Search & Deep Research -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🔍</div><div class="card-title">Web Search &amp; Research</div></div>
+      <div class="card-body">
+        <div class="sub">Web Search</div>
+        <div class="row"><span class="row-label">Real-time web search <span class="pt free">FREE</span></span></div>
+        <div class="row"><span class="row-label">Toggle on/off per conversation</span></div>
+        <div class="row"><span class="row-label">Ask Claude to search explicitly</span></div>
+        <div class="row"><span class="row-label">Fetch &amp; read full URLs</span></div>
+        <div class="row"><span class="row-label">Cited sources in responses</span></div>
+        <div class="sub">Deep Research <span class="pt pro">PRO</span></div>
+        <div class="row"><span class="row-label">Multi-round search strategy</span></div>
+        <div class="row"><span class="row-label">Synthesizes dozens of sources</span></div>
+        <div class="row"><span class="row-label">Cross-verifies information</span></div>
+        <div class="row"><span class="row-label">Produces full cited report</span></div>
+        <div class="row"><span class="row-label">Takes several minutes to complete</span></div>
+        <div class="row"><span class="row-label">Access</span><div class="row-right"><span class="val dim">Research button (lower left)</span></div></div>
+        <div class="sub">File / URL Input</div>
+        <div class="row"><span class="row-label">Paste URL → Claude fetches &amp; reads</span></div>
+        <div class="row"><span class="row-label">Upload PDF for analysis</span></div>
+        <div class="row"><span class="row-label">Upload images for vision analysis</span></div>
+        <div class="row"><span class="row-label">Upload spreadsheets / docs</span></div>
+        <div class="note">No image generation — analysis only</div>
+      </div>
+    </div>
+
+    <!-- Connectors / MCP -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🔌</div><div class="card-title">Connectors (MCP)</div></div>
+      <div class="card-body">
+        <div class="sub">What Connectors Do</div>
+        <div class="row"><span class="row-label">Connect Claude to live app data</span></div>
+        <div class="row"><span class="row-label">Built on open-source MCP protocol</span></div>
+        <div class="row"><span class="row-label">Read, search, create &amp; act in tools</span></div>
+        <div class="row"><span class="row-label">Directory connectors <span class="pt free">FREE</span></span></div>
+        <div class="row"><span class="row-label">Custom / interactive connectors <span class="pt pro">PRO</span></span></div>
+        <div class="row"><span class="row-label">Setup</span><div class="row-right"><span class="val dim">Settings → Connectors</span></div></div>
+        <div class="sub">Communication</div>
+        <div class="row"><span class="row-label">Gmail</span></div>
+        <div class="row"><span class="row-label">Google Calendar</span></div>
+        <div class="row"><span class="row-label">Slack</span></div>
+        <div class="row"><span class="row-label">Microsoft 365 / Outlook</span></div>
+        <div class="sub">Docs &amp; Files</div>
+        <div class="row"><span class="row-label">Google Drive</span></div>
+        <div class="row"><span class="row-label">Google Docs (read &amp; edit) <span class="pt pro">PRO</span></span></div>
+        <div class="row"><span class="row-label">Notion</span></div>
+        <div class="row"><span class="row-label">Box</span></div>
+        <div class="sub">Project Management</div>
+        <div class="row"><span class="row-label">Asana / Jira / Linear</span></div>
+        <div class="row"><span class="row-label">GitHub / GitLab</span></div>
+        <div class="row"><span class="row-label">Confluence</span></div>
+        <div class="row"><span class="row-label">Monday</span></div>
+        <div class="sub">Other</div>
+        <div class="row"><span class="row-label">Figma / Canva / Stripe</span></div>
+        <div class="row"><span class="row-label">Salesforce / HubSpot</span></div>
+        <div class="row"><span class="row-label">50+ connectors total <span class="pt new">NEW</span></span></div>
+        <div class="row"><span class="row-label">Zapier (6,000+ apps via MCP)</span></div>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🛠️</div><div class="card-title">Skills</div></div>
+      <div class="card-body">
+        <div class="sub">What Skills Are</div>
+        <div class="row"><span class="row-label">Saved reusable workflow playbooks <span class="pt new">NEW</span></span></div>
+        <div class="row"><span class="row-label">Structured instructions Claude follows</span></div>
+        <div class="row"><span class="row-label">Consistent output across sessions</span></div>
+        <div class="row"><span class="row-label">Based on open Agent Skills standard</span></div>
+        <div class="sub">Access &amp; Setup</div>
+        <div class="row"><span class="row-label">Find &amp; enable skills</span><div class="row-right"><span class="val dim">Settings → Customize</span></div></div>
+        <div class="row"><span class="row-label">Create custom skill</span><div class="row-right"><span class="val dim">Skill Creator tool</span></div></div>
+        <div class="row"><span class="row-label">Partner skills directory</span><div class="row-right"><span class="pt team">TEAM</span></div></div>
+        <div class="row"><span class="row-label">Org-wide skill management</span><div class="row-right"><span class="pt ent">ENT</span></div></div>
+        <div class="sub">Example Use Cases</div>
+        <div class="row"><span class="row-label">Always format reports a certain way</span></div>
+        <div class="row"><span class="row-label">Follow a specific research process</span></div>
+        <div class="row"><span class="row-label">Output in your brand tone/structure</span></div>
+        <div class="row"><span class="row-label">Consistent coding style enforcement</span></div>
+        <div class="sub">Skills vs Projects</div>
+        <div class="row"><span class="row-label">Skills = how Claude does the task</span></div>
+        <div class="row"><span class="row-label">Projects = what Claude knows about you</span></div>
+      </div>
+    </div>
+
+    <!-- File Creation -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">📄</div><div class="card-title">File Creation</div></div>
+      <div class="card-body">
+        <div class="sub">Enable</div>
+        <div class="row"><span class="row-label">Code execution &amp; file creation</span><div class="row-right"><span class="val dim">Settings → Capabilities</span></div></div>
+        <div class="sub">Supported File Types</div>
+        <div class="row"><span class="row-label">Word documents (.docx)</span></div>
+        <div class="row"><span class="row-label">Excel spreadsheets (.xlsx)</span></div>
+        <div class="row"><span class="row-label">PowerPoint presentations (.pptx) <span class="pt new">NEW</span></span></div>
+        <div class="row"><span class="row-label">PDFs</span></div>
+        <div class="row"><span class="row-label">HTML / Markdown / code files</span></div>
+        <div class="sub">Office Add-ins</div>
+        <div class="row"><span class="row-label">Claude in Excel <span class="pt pro">PRO</span></span></div>
+        <div class="row"><span class="row-label">Claude in PowerPoint <span class="pt pro">PRO</span></span></div>
+        <div class="row"><span class="row-label">Shared context across Excel ↔ PPT <span class="pt new">NEW</span></span></div>
+        <div class="row"><span class="row-label">Skills support in add-ins</span></div>
+        <div class="sub">Code Execution</div>
+        <div class="row"><span class="row-label">Run Python in-browser</span></div>
+        <div class="row"><span class="row-label">Generate dynamic spreadsheets</span></div>
+        <div class="row"><span class="row-label">Build &amp; test code without copy-paste</span></div>
+      </div>
+    </div>
+
+    <!-- Settings & Customization -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">⚙️</div><div class="card-title">Settings &amp; Customization</div></div>
+      <div class="card-body">
+        <div class="sub">Capabilities (toggle on/off)</div>
+        <div class="row"><span class="row-label">Web search</span></div>
+        <div class="row"><span class="row-label">Artifacts &amp; inline visualizations</span></div>
+        <div class="row"><span class="row-label">Code execution &amp; file creation</span></div>
+        <div class="row"><span class="row-label">Generate memory from chat history</span></div>
+        <div class="row"><span class="row-label">Search &amp; reference past chats</span></div>
+        <div class="sub">User Preferences</div>
+        <div class="row"><span class="row-label">Preferred tone &amp; response style</span></div>
+        <div class="row"><span class="row-label">Formatting preferences</span></div>
+        <div class="row"><span class="row-label">Custom writing style</span></div>
+        <div class="row"><span class="row-label">Language / locale</span></div>
+        <div class="sub">Privacy &amp; Data</div>
+        <div class="row"><span class="row-label">Opt out of training data use <span class="pt pro">PRO</span></span></div>
+        <div class="row"><span class="row-label">Delete conversation history</span></div>
+        <div class="row"><span class="row-label">Download your data</span></div>
+        <div class="row"><span class="row-label">SSO / Google Workspace login <span class="pt team">TEAM</span></span></div>
+        <div class="sub">Appearance</div>
+        <div class="row"><span class="row-label">Light / Dark mode</span></div>
+        <div class="row"><span class="row-label">Font size</span></div>
+      </div>
+    </div>
+
+    <!-- Chat Interface -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">💬</div><div class="card-title">Chat Interface</div></div>
+      <div class="card-body">
+        <div class="sub">Input</div>
+        <div class="row"><span class="row-label">New chat</span><div class="row-right"><span class="val dim">Pencil icon / sidebar button</span></div></div>
+        <div class="row"><span class="row-label">New line in message</span><div class="row-right"><span class="val dim">Shift + Enter</span></div></div>
+        <div class="row"><span class="row-label">Send message</span><div class="row-right"><span class="val dim">Enter or Send button</span></div></div>
+        <div class="row"><span class="row-label">Attach file / image</span><div class="row-right"><span class="val dim">Paperclip icon</span></div></div>
+        <div class="row"><span class="row-label">Paste image directly</span><div class="row-right"><span class="val dim">Ctrl/Cmd+V in input</span></div></div>
+        <div class="sub">During a Conversation</div>
+        <div class="row"><span class="row-label">Stop generation</span><div class="row-right"><span class="val dim">Stop button (■)</span></div></div>
+        <div class="row"><span class="row-label">Regenerate response</span><div class="row-right"><span class="val dim">↺ icon on message</span></div></div>
+        <div class="row"><span class="row-label">Edit your message</span><div class="row-right"><span class="val dim">Pencil icon on message</span></div></div>
+        <div class="row"><span class="row-label">Copy response</span><div class="row-right"><span class="val dim">Copy icon on message</span></div></div>
+        <div class="row"><span class="row-label">Thumbs up / down feedback</span></div>
+        <div class="row"><span class="row-label">Branch conversation from any message</span></div>
+        <div class="sub">Conversation Management</div>
+        <div class="row"><span class="row-label">Rename conversation</span></div>
+        <div class="row"><span class="row-label">Star / pin conversation</span></div>
+        <div class="row"><span class="row-label">Delete conversation</span></div>
+        <div class="row"><span class="row-label">Search past conversations</span></div>
+        <div class="row"><span class="row-label">Share conversation via link</span></div>
+        <div class="sub">Context</div>
+        <div class="row"><span class="row-label">Context window indicator</span></div>
+        <div class="row"><span class="row-label">Auto-compaction near limit</span><div class="row-right"><span class="val dim">~95% capacity</span></div></div>
+      </div>
+    </div>
+
+    <!-- Plans & Limits -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">💳</div><div class="card-title">Plans &amp; Limits</div></div>
+      <div class="card-body">
+        <div class="sub">Free <span class="pt free">FREE</span></div>
+        <div class="row"><span class="row-label">Model</span><div class="row-right"><span class="val">Sonnet 4.6</span></div></div>
+        <div class="row"><span class="row-label">Daily messages</span><div class="row-right"><span class="val dim">~30–100 (dynamic)</span></div></div>
+        <div class="row"><span class="row-label">Resets</span><div class="row-right"><span class="val dim">Rolling every few hours</span></div></div>
+        <div class="row"><span class="row-label">Projects, Artifacts, Memory, Search</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="row"><span class="row-label">Priority during peak hours</span><div class="row-right"><span class="val warn">✗ Lower</span></div></div>
+        <div class="sub">Pro <span class="pt pro">PRO $20/mo</span></div>
+        <div class="row"><span class="row-label">Models</span><div class="row-right"><span class="val">+ Opus 4.6</span></div></div>
+        <div class="row"><span class="row-label">Usage vs Free</span><div class="row-right"><span class="val">5× more messages</span></div></div>
+        <div class="row"><span class="row-label">~45 msgs / 5-hr window</span></div>
+        <div class="row"><span class="row-label">Extended Thinking</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="row"><span class="row-label">Deep Research</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="row"><span class="row-label">Opt out of training data</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="row"><span class="row-label">Priority access (peak hours)</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="sub">Max <span class="pt max">MAX $100–200/mo</span></div>
+        <div class="row"><span class="row-label">Max 5× ($100)</span><div class="row-right"><span class="val">25× Free capacity</span></div></div>
+        <div class="row"><span class="row-label">Max 20× ($200)</span><div class="row-right"><span class="val">100× Free capacity</span></div></div>
+        <div class="row"><span class="row-label">Opus 4.6 1M context window</span><div class="row-right"><span class="val green">✓</span></div></div>
+        <div class="sub">Team / Enterprise</div>
+        <div class="row"><span class="row-label">Team</span><div class="row-right"><span class="val">$30/seat/mo</span></div></div>
+        <div class="row"><span class="row-label">Shared projects &amp; collaboration</span></div>
+        <div class="row"><span class="row-label">Enterprise</span><div class="row-right"><span class="val">Custom pricing</span></div></div>
+        <div class="row"><span class="row-label">SSO, audit logs, admin controls</span><div class="row-right"><span class="pt ent">ENT</span></div></div>
+      </div>
+    </div>
+
+    <!-- Multimodal & Input -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">📎</div><div class="card-title">Multimodal &amp; Input</div></div>
+      <div class="card-body">
+        <div class="sub">Images (Vision)</div>
+        <div class="row"><span class="row-label">Analyze photos &amp; screenshots</span></div>
+        <div class="row"><span class="row-label">Extract text from images (OCR)</span></div>
+        <div class="row"><span class="row-label">Read charts, graphs, diagrams</span></div>
+        <div class="row"><span class="row-label">Interpret handwritten notes</span></div>
+        <div class="row"><span class="row-label">Solve visual math problems</span></div>
+        <div class="row"><span class="row-label">Generate images</span><div class="row-right"><span class="val warn">✗ Not supported</span></div></div>
+        <div class="sub">Documents</div>
+        <div class="row"><span class="row-label">PDF analysis (full document)</span></div>
+        <div class="row"><span class="row-label">Word / Excel / PowerPoint upload</span></div>
+        <div class="row"><span class="row-label">Code file upload</span></div>
+        <div class="row"><span class="row-label">CSV / data file analysis</span></div>
+        <div class="row"><span class="row-label">Multiple files per conversation</span></div>
+        <div class="sub">Other Input</div>
+        <div class="row"><span class="row-label">Paste text / code directly</span></div>
+        <div class="row"><span class="row-label">Drag &amp; drop files</span></div>
+        <div class="row"><span class="row-label">URL → Claude fetches content</span></div>
+        <div class="sub">Limitations</div>
+        <div class="row"><span class="row-label">No audio / video generation</span><div class="row-right"><span class="val warn">✗</span></div></div>
+        <div class="row"><span class="row-label">No native voice input (browser)</span><div class="row-right"><span class="val warn">✗</span></div></div>
+        <div class="row"><span class="row-label">No image generation</span><div class="row-right"><span class="val warn">✗</span></div></div>
+      </div>
+    </div>
+
+    <!-- Prompting Tips -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">✍️</div><div class="card-title">Prompting Tips</div></div>
+      <div class="card-body">
+        <div class="sub">Basics</div>
+        <div class="row"><span class="row-label">Be specific &amp; detailed</span></div>
+        <div class="row"><span class="row-label">State desired format explicitly</span></div>
+        <div class="row"><span class="row-label">Specify output length</span></div>
+        <div class="row"><span class="row-label">Give positive &amp; negative examples</span></div>
+        <div class="sub">Structure</div>
+        <div class="row"><span class="row-label">Use XML tags for structure</span><div class="row-right"><span class="val dim">&lt;context&gt; &lt;task&gt;</span></div></div>
+        <div class="row"><span class="row-label">Ask for step-by-step reasoning</span></div>
+        <div class="row"><span class="row-label">Request JSON schema output</span></div>
+        <div class="row"><span class="row-label">"Plan first, then execute"</span></div>
+        <div class="sub">Extended Thinking Triggers <span class="pt pro">PRO</span></div>
+        <div class="row"><span class="row-label">"Think carefully before answering"</span></div>
+        <div class="row"><span class="row-label">"Reason through this step by step"</span></div>
+        <div class="row"><span class="row-label">Toggle Extended Thinking mode</span></div>
+        <div class="sub">Useful Phrases</div>
+        <div class="row"><span class="row-label">"Respond only in JSON"</span></div>
+        <div class="row"><span class="row-label">"Check your work before responding"</span></div>
+        <div class="row"><span class="row-label">"Be concise / under X words"</span></div>
+        <div class="row"><span class="row-label">"Continue" to extend a response</span></div>
+        <div class="row"><span class="row-label">"Ignore previous formatting"</span></div>
+        <div class="sub">For Artifacts</div>
+        <div class="row"><span class="row-label">"Build this as an interactive app"</span></div>
+        <div class="row"><span class="row-label">"Make it a downloadable Word doc"</span></div>
+        <div class="row"><span class="row-label">"Put this in a React component"</span></div>
+      </div>
+    </div>
+
+    <!-- Chrome Extension -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🌐</div><div class="card-title">Chrome Extension</div></div>
+      <div class="card-body">
+        <div class="sub">Claude for Chrome <span class="pt new">NEW</span></div>
+        <div class="row"><span class="row-label">Read &amp; analyze current web page</span></div>
+        <div class="row"><span class="row-label">Detect console errors (devtools)</span></div>
+        <div class="row"><span class="row-label">Inspect DOM structure</span></div>
+        <div class="row"><span class="row-label">Analyze network requests</span></div>
+        <div class="row"><span class="row-label">Test code directly in browser</span></div>
+        <div class="row"><span class="row-label">Automate browser workflows</span></div>
+        <div class="row"><span class="row-label">Site-level permission controls</span></div>
+        <div class="row"><span class="row-label">Action confirmations for sensitive ops</span></div>
+        <div class="sub">Access</div>
+        <div class="row"><span class="row-label">Install from Chrome Web Store</span></div>
+        <div class="row"><span class="row-label">Requires Claude account (any plan)</span></div>
+        <div class="sub">What It Is NOT</div>
+        <div class="row"><span class="row-label">Not a full computer-use agent</span></div>
+        <div class="row"><span class="row-label">Not Claude Code in the browser</span></div>
+        <div class="note">Computer use (full desktop) = Claude Cowork (separate)</div>
+      </div>
+    </div>
+
+    <!-- Sharing & Export -->
+    <div class="card">
+      <div class="card-header"><div class="card-icon">🔗</div><div class="card-title">Sharing &amp; Export</div></div>
+      <div class="card-body">
+        <div class="sub">Share Conversations</div>
+        <div class="row"><span class="row-label">Share conversation via public link</span></div>
+        <div class="row"><span class="row-label">Share with specific team members <span class="pt team">TEAM</span></span></div>
+        <div class="row"><span class="row-label">Revoke shared link</span></div>
+        <div class="sub">Share Artifacts</div>
+        <div class="row"><span class="row-label">Publish artifact as public URL</span><div class="row-right"><span class="pt pro">PRO</span></div></div>
+        <div class="row"><span class="row-label">Anyone with link can view/use it</span></div>
+        <div class="row"><span class="row-label">Interactive artifacts work for viewers</span></div>
+        <div class="sub">Export &amp; Download</div>
+        <div class="row"><span class="row-label">Download artifact (HTML, code, doc)</span></div>
+        <div class="row"><span class="row-label">Copy response as plain text</span></div>
+        <div class="row"><span class="row-label">Copy as Markdown</span></div>
+        <div class="row"><span class="row-label">Download your data (all chats)</span></div>
+        <div class="sub">Embed</div>
+        <div class="row"><span class="row-label">Published artifacts embeddable via URL</span></div>
+        <div class="row"><span class="row-label">No direct iframe embed support</span></div>
+      </div>
+    </div>
+
+  </div><!-- end grid -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-line">
+      <strong>Not in the browser</strong>
+      CLI flags &amp; commands
+      <span class="sep">·</span>
+      Terminal keyboard shortcuts (Ctrl+C, Ctrl+D, etc.)
+      <span class="sep">·</span>
+      CLAUDE.md files &amp; config JSON
+      <span class="sep">·</span>
+      Git worktrees &amp; /batch
+      <span class="sep">·</span>
+      Skill frontmatter &amp; $ARGUMENTS
+      <span class="sep">·</span>
+      MCP server setup flags
+      <span class="sep">·</span>
+      Env vars (ANTHROPIC_API_KEY, etc.)
+      <span class="sep">·</span>
+      Agents / /simplify / /debug skills
+      <span class="sep">·</span>
+      Headless / SDK mode
+    </div>
+    <div class="footer-line">
+      <strong>Pricing</strong>
+      <span class="plan-tag tag-free" style="font-size:9px">FREE</span> Sonnet 4.6, dynamic limits, ~30–100 msgs/day
+      <span class="sep">·</span>
+      <span class="plan-tag tag-pro" style="font-size:9px">PRO $20/mo</span> Opus 4.6, Extended Thinking, Deep Research, 5× usage
+      <span class="sep">·</span>
+      <span class="plan-tag tag-max" style="font-size:9px">MAX $100/mo</span> 25× usage, 1M context
+      <span class="sep">·</span>
+      <span class="plan-tag tag-max" style="font-size:9px">MAX $200/mo</span> 100× usage
+      <span class="sep">·</span>
+      <span class="plan-tag tag-team" style="font-size:9px">TEAM $30/seat</span> Shared projects, collaboration
+      <span class="sep">·</span>
+      <span class="plan-tag tag-ent" style="font-size:9px">ENT custom</span> SSO, 500K ctx, admin controls
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
