@@ -57,3 +57,7 @@ The document assembles a specific counter-canonical physics: Pythagoras → Tesl
 ## Relevance to Current Work
 
 The DOMUS base-isolation concept is a ten-years-earlier version of exactly what TROJAN TREMORS proposes — sensing vibration **at the isolation boundary** rather than above it. DOMUS isolates from seismic input; the Geffen Galleries do the same. The difference: TROJAN TREMORS proposes to **listen to what the isolation system absorbs** rather than simply sheltering from it. DOMUS is the proof-of-concept that the built environment can be a resonant instrument. The Geffen is the institutional-scale realization.
+
+## Reference
+
+https://lifeorange.com/rmm/projects/terramomentum/terramomentum.html
