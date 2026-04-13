@@ -75,6 +75,10 @@
 - Website: https://roocode.com/
 - GitHub: https://github.com/RooCodeInc
 
+### Hermes - Agent 🌎
+- Website: https://hermes-agent.nousresearch.com/
+- GitHub: https://github.com/NousResearch/hermes-agent
+
 ### Github Copilot 🇺🇸
 - Features: https://github.com/features/copilot
 - GitHub: https://github.com/
