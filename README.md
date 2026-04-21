@@ -90,6 +90,21 @@ https://en.wikipedia.org/wiki/Vaporwave<br>
 
 Alias, Aphex Twin, Autechre, Ben Prunty, Boards of Canada, Brian Eno, CAN, Caterina Barbieri, Clark, Curtis Roads, Dick Hyman, Disasterpeace, Dose One, Éliane Radigue, Ennio Morricone, Fever Ray, Fuck Buttons, Gérard Grisey, Giorgio Moroder, Health, Iannis Xenakis, Iglooghost, Jean-Michel Jarre, John Carpenter, John Chowning, Kosmische Wellen, Kraftwerk, Legowelt, Mall Grab, Max Mathews, Merzbow, Michael Garrison, Oneohtrix Point Never (OPN), Pauline Oliveros, Pierre Schaeffer, Richard Devine, Robert Fripp, Robin Fox, Severed Heads, Skee Mask, Sophie, Steve Reich, Suzanne Ciani, Tangerine Dream, Terry Riley, The Knife, Tom Hall, Tristan Murail, Wendy Carlos >><br>
 
+### THE TWELVE AXES OF ELECTRONIC MUSIC COMPOSITION
+
+| 1 | Granular / Microsound | Curtis Roads |<br>
+| 2 | Stochastic Probability | Iannis Xenakis |<br>
+| 3 | Phase / Process | Steve Reich |<br>
+| 4 | Generative Systems | Brian Eno |<br>
+| 5 | Loop / Territory | Terry Riley |<br>
+| 6 | Machine Grid | Kraftwerk |<br>
+| 7 | Timbral Subtraction | Caterina Barbieri |<br>
+| 8 | Hauntology / Degradation | Boards of Canada |<br>
+| 9 | Algorithmic Complexity / Drill | Aphex Twin |<br>
+| 10 | Object-Collage | Oneohtrix Point Never |<br>
+| 11 | Hyper-Real Synthesis | Sophie |<br>
+| 12 | Euphoric Maximalism | Fuck Buttons |<br>
+
 ### Seismic Data<br>
 
 USGS Earthquake Search Catalog<br>
