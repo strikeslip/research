@@ -1,5 +1,5 @@
 # TWELVE ARCHITECTS: MUSIFICATION TECHNIQUES
-### Curtis Roads · Iannis Xenakis · Steve Reich · Brian Eno · Terry Riley · Kraftwerk · Caterina Barbieri · Boards of Canada · Aphex · OPN · Sophie · Fuck Buttons
+### Curtis Roads · Iannis Xenakis · Steve Reich · Brian Eno · Terry Riley · Kraftwerk · Caterina Barbieri · Boards of Canada · Aphex Twin · Oneohtrix Point Never · Sophie · Fuck Buttons
 *A reference for seismic-to-sound translation — SE1STR0N1CA Research development*
 
 ---
