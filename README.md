@@ -92,18 +92,19 @@ Alias, Aphex Twin, Autechre, Ben Prunty, Boards of Canada, Brian Eno, CAN, Cater
 
 ### THE TWELVE AXES OF ELECTRONIC MUSIC COMPOSITION
 
-| 1 | Granular / Microsound | Curtis Roads |<br>
-| 2 | Stochastic Probability | Iannis Xenakis |<br>
-| 3 | Phase / Process | Steve Reich |<br>
-| 4 | Generative Systems | Brian Eno |<br>
-| 5 | Loop / Territory | Terry Riley |<br>
-| 6 | Machine Grid | Kraftwerk |<br>
-| 7 | Timbral Subtraction | Caterina Barbieri |<br>
-| 8 | Hauntology / Degradation | Boards of Canada |<br>
-| 9 | Algorithmic Complexity / Drill | Aphex Twin |<br>
-| 10 | Object-Collage | Oneohtrix Point Never |<br>
-| 11 | Hyper-Real Synthesis | Sophie |<br>
-| 12 | Euphoric Maximalism | Fuck Buttons |<br>
+| 1 | R0ADS | Granular / Microsound | Curtis Roads |<br>
+| 2 | X3N | Stochastic Probability | Iannis Xenakis |<br>
+| 3 | RE1CH | Phase / Process | Steve Reich |<br>
+| 4 | EN0 | Generative Systems | Brian Eno |<br>
+| 5 | T3RRY | Loop / Territory | Terry Riley |<br>
+| 6 | KR4FT Machine Grid | Kraftwerk |<br>
+| 7 | B4RB | Timbral Subtraction | Caterina Barbieri |<br>
+| 8 | B0C | Hauntology / Degradation | Boards of Canada |<br>
+| 9 | APH3X | Algorithmic Complexity / Drill | Aphex Twin |<br>
+| 10 | 0PN | Object-Collage | Oneohtrix Point Never |<br>
+| 11 | S0 | Hyper-Real Synthesis | Sophie |<br>
+| 12 | AUT3 | Emergent Algorithmics | Autechre |<br>
+| * | FU©K | Euphoric Maximalism | Fuck Buttons |<br>
 
 ### Seismic Data<br>
 
